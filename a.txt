@@ -1,0 +1,524 @@
+"""<a target="0" href="https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9"
+onclick="cA('Yes_The-yes-album_2.png', 'Yes_Yes_1.png', 'Yes_Yes_3.png'), escribir('Yes', 'YES'), color('#3a1117', '#ff9416')">
+<img src="Yes_Yes_1.png" id="portada"/></a><a id="texto">
+Yes - Yes</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/bcc_pW8f4Yo?list=PL16FF0C44194CFCE1"
+onclick="cA('Yes_Time-and-a-word_2.png', 'Yes_Time-and-a-word_1.png', 'Yes_Time-and-a-word_3.png'), escribir('Yes', 'Time and a word'), color('#09011e', '#f0c900')">
+<img src="Yes_Time-and-a-word_1.png" id="portada"/></a><a id="texto">
+Yes - Time and a word</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=3N6AeSM0AKU&list=PLo2aaBamFnLR0tS9GQc1mpQj_dGzUqzEM"
+onclick="cA('Yes_The-yes-album_2.png', 'Yes_The-yes-album_1.png', 'Yes_The-yes-album_3.jpg'), escribir('Yes', 'The Yes Album'), color('', '')">
+<img src="Yes_The-yes-album_1.png" id="portada_alt"/></a><a id="texto">
+Yes - The yes album</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=3hE7HZCVVRU?autoplay=1"
+onclick="cA('Yes_Fragile_2.png', 'Yes_Fragile_1.png', 'Yes_Fragile_3.png'), escribir('Yes', 'Fragile'), color('#090422', '#7caeb8')">
+<img src="Yes_Fragile_1.png" id="portada_alt"/></a><a id="texto">
+Yes - Fragile</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=GNkWac-Nm0A?autoplay=1"
+onclick="cA('Yes_Close-to-the-edge_2.png', 'Yes_Close-to-the-edge_1.png', 'Yes_Close-to-the-edge_3.png'), escribir('Yes', 'Close to the Edge'), color('', 'linear-gradient(165deg, black, #0b571b, #00ff2e)')">
+<img src="Yes_Close-to-the-edge_1.png" id="portada_alt"/></a><a id="texto">
+Yes - Close to the Edge</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=qXN2Tojqhts?autoplay=1"
+onclick="cA('Yes_Yessongs_2.png', 'Yes_Yessongs_1.jpg', 'Yes_Yessongs_3.png'), escribir('Yes', 'Yessongs'), color('', '#672b36')">
+<img src="Yes_Yessongs_1.jpg" id="portada_alt"/></a><a id="texto">
+Yes - Yessongs</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/2-tnnbwIYys?list=PLoRgLeHX0tkHeRLKRW4As37dtxc3iGE8U"
+onclick="cA('Yes_Tales_2.png', 'Yes_Tales_1.png', 'Yes_Tales_3.png'), escribir('Yes', 'Tales from topographic oceans'), color('#070124', '#a2a2b3')">
+<img src="Yes_Tales_1.png" id="portada"/></a><a id="texto">
+Yes - Tales from topographic oceans</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=quPoq2699Xo&t=0s"
+onclick="cA('Yes_Relayer_2.png', 'Yes_Relayer_1.jpg', 'Yes_Relayer_3.png'), escribir('Yes', 'Relayer'), color('#181b22', '#ce7912')">
+<img src="Yes_Relayer_1.jpg" id="portada_alt"/></a><a id="texto">
+Yes - Relayer</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=8_8MNVzQv6E?autoplay=1"
+onclick="cA('Yes_Going-for-the-one_2.png', 'Yes_Going-for-the-one_1.jpg', 'Yes_Going-for-the-one_3.png'), escribir('Yes', 'Going for the one'), color('#3b569b')">
+<img src="Yes_Going-for-the-one_1.jpg" id="portada_alt"/></a><a id="texto">
+Yes - Going for the one</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=NLWDsXTdeiM&list=PLvsYXqtYjMYfAhOzB15ncmHf-SymYIWvt"
+onclick="cA('Yes_Drama_2.png', 'Yes_Drama_1.png', 'Yes_Drama_3.png'), escribir('Yes', 'Drama'), color('#040e14', '#4b69a7')">
+<img src="Yes_Drama_1.png" id="portada_alt"/></a><a id="texto">
+Yes - Drama</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/JwmSS_64IN4?list=OLAK5uy_nWYVLlCgxodhqh5PuVKeNwfnxE7rW5xsY"
+onclick="cA('ELP_ELP_2.png', 'ELP_ELP_1.png', 'ELP_ELP_3.png'), escribir('ELP', 'Emerson, Lake & Palmer'), color('', '#c9195f')">
+<img src="ELP_ELP_1.png" id="portada"/></a><a id="texto">
+ELP</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/QQ1Zo6faTQY?list=PL_7uDR7uwx35vz46V87pkru_Sk2Antz4t                                       "
+onclick="cA('ELP_Tarkus_2.png', 'ELP_Tarkus_1.png', 'ELP_Tarkus_3.png'), escribir('ELP', 'Tarkus'), color('#0f2b4a', 'linear-gradient(189deg, #1e5787, #FFFFFF, rgb(232, 186, 0), rgb(232, 186, 0), rgb(240, 130, 13), rgb(240, 130, 13), rgb(240, 89, 0), rgb(240, 89, 0), rgb(87, 44, 3), rgb(87, 44, 3), rgb(59, 105, 50), rgb(59, 105, 50), rgb(58, 7, 106), rgb(58, 7, 106), rgb(73, 33, 7), rgb(73, 33, 7), rgb(45, 56, 143), #2d388f, #2d388f)')">
+<img src="ELP_Tarkus_1.png" id="portada"/></a><a id="texto">
+ELP - Tarkus</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/3O35mcfY7nE?list=OLAK5uy_nbuBqLng1HncYf0TOEPHlJni91H64hynA"
+onclick="cA('ELP_Trilogy_2.png', 'ELP_Trilogy_1.png', 'ELP_Trilogy_3.png'), escribir('ELP', 'Trilogy'), color('#320b1d', '#ac4f7a')">
+<img src="ELP_Trilogy_1.png" id="portada"/></a><a id="texto">
+ELP - Trilogy</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/4XxnETYIRyc?list=PLoRgLeHX0tkGwomaXfy8p0MAR4eMxoItX"
+onclick="cA('ELP_Pictures_2.png', 'ELP_Pictures_1.png', 'ELP_Pictures_3.png'), escribir('ELP', 'Pictures at an exhibition'), color('', '#a8182c')">
+<img src="ELP_Pictures_1.png" id="portada"/></a><a id="texto">
+ELP - Pictures at an exhibition</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/EiefkbOwjz4?list=PLoRgLeHX0tkFmOtQA_QiLMm2qqQbQXWEu"
+onclick="cA('ELP_Brain-salad-surgery_2.png', 'ELP_Brain-salad-surgery_1.png', 'ELP_Brain-salad-surgery_3.png'), escribir('ELP', 'Brain salad surgery'), color('#0d0d0f', '#c40000')">
+<img src="ELP_Brain-salad-surgery_1.png" id="portada"/></a><a id="texto">
+ELP - Brain salad surgery</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/MlUA9S8hJpo?list=PLoRgLeHX0tkFtNKwWhMx_26u1G8S_wvnX"
+onclick="cA('ELP_Welcome-back_2.png', 'ELP_Welcome-back_1.png', 'ELP_Welcome-back_3.png'), escribir('ELP', 'Welcome back my friends to the show that never ends'), color('#0e0e41', '#837dae')">
+<img src="ELP_Welcome-back_1.png" id="portada"/></a><a id="texto">
+ELP - Welcome back</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/JbU7R8nzPSM?list=PL_tKhcwp1CMJdxpMWsq5P9CUbTozZdpdE"
+onclick="cA('ELP_Works-Vol-1_2.png', 'ELP_Works-Vol-1_1.jpg', 'ELP_Works-Vol-1_3.png'), escribir('ELP', 'Works Vol. 1'), color('#273a4f', '#08090a')">
+<img src="ELP_Works-Vol-1_1.jpg" id="portada"/></a><a id="texto">
+ELP - Works vol 1</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=8aa7kw65nXc&list=OLAK5uy_nZtFLUbmnEE8LLS058-z3Uf3sGOTFGy6o"
+onclick="cA('ELP_Works-Vol-2_2.png', 'ELP_Works-Vol-2_1.png', 'ELP_Works-Vol-2_3.png'), escribir('ELP', 'Works Vol. 2'), color('#000000', '#cccccc')">
+<img src="ELP_Works-Vol-2_1.png" id="portada_alt"/></a><a id="texto">
+ELP - Works Vol. 2</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/AyMdFGizWN4?list=PLs6qUl61yIU9g3FSsxw1pfmDU5HebswSU"
+onclick="cA('ELP_In-Concert_2.png', 'ELP_In-Concert_1.png', 'ELP_In-Concert_3.png'), escribir('ELP', 'In Concert'), color('#020a25', 'radial-gradient(transparent, transparent, #050421), linear-gradient(180deg, #2a3c71, #2a3c71, #b7c5c8, #2a3c71, #2a3c71)')">
+<img src="ELP_In-Concert_1.png" id="portada"/></a><a id="texto">
+ELP - In Concert</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/BoTKJL_zeK4?list=PLeRTwzsK7qf-o4HeJ9EnJd4lKNHZWyA2K"
+onclick="cA('ELP_Black-Moon_2.png', 'ELP_Black-Moon_1.png', 'ELP_Black-Moon_3.png'), escribir('ELP', 'Black Moon'), color('#10355a')">
+<img src="ELP_Black-Moon_1.png" id="portada"/></a><a id="texto">
+ELP - Black Moon</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=HuxJlaEkt20&list=OLAK5uy_noA1rSrOWXngRhxPYA3gO11qMtrki0lqQ"
+onclick="cA('Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_2.png', 'Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_1.png', 'Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_3.png'), escribir('Emerson Lake & Powell', 'Emerson Lake & Powell'), color('#080808', '#e91e15')">
+<img src="Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_1.png" id="portada_alt"/></a><a id="texto">
+Emerson Lake & Powell - Emerson Lake & Powell</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/E7Z_xXh7gm8?list=PLWnwFAnZO1AHvF50JS7mgXh3ZGsF3phcz"
+onclick="cA('Genesis_Trespass_2.png', 'Genesis_Trespass_1.png', 'Genesis_Trespass_3.png'), escribir('Genesis', 'Trespass'), color('#3c78a4', '#000000')">
+<img src="Genesis_Trespass_1.png" id="portada"/></a><a id="texto">
+Genesis - Trespass</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/ptqOXXhCpgs?list=OLAK5uy_kcdTV9DHP8chjWvVCDONrizSnps-SWcyw"
+onclick="cA('Genesis_Nursery-cryme_2.png', 'Genesis_Nursery-cryme_1.png', 'Genesis_Nursery-cryme_3.png'), escribir('Genesis', 'Nursery Cryme'), color('', '#ed5a14')">
+<img src="Genesis_Nursery-cryme_1.png" id="portada"/></a><a id="texto">
+Genesis - Nursery Cryme</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/2agWXrNJGjg?list=PLWnwFAnZO1AFU-KtZVhHY6lTnZRk_MYBS"
+onclick="cA('Genesis_Foxtrot_2.png', 'Genesis_Foxtrot_1.jpg', 'Genesis_Foxtrot_3.png'), escribir('Genesis', 'Foxtrot'), color('', '')">
+<img src="Genesis_Foxtrot_1.jpg" id="portada"/></a><a id="texto">
+Genesis - Foxtrot</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD"
+onclick="cA('Genesis_Selling-England_2.png', 'Genesis_Selling-England_1.png', 'Genesis_Selling-England_3.png'), escribir('Genesis', 'Selling England by the pound'), color('', '#afb85a')">
+<img src="Genesis_Selling-England_1.png" id="portada"/></a><a id="texto">
+Genesis - Selling England by the pound</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m"
+onclick="cA('Genesis_The-lamb_2.png', 'Genesis_The-lamb_1.png', 'Genesis_The-lamb_3.png'), escribir('Genesis', 'The lamb lies down on Broadway'), color('#000000')">
+<img src="Genesis_The-lamb_1.png" id="portada"/></a><a id="texto">
+Genesis - The lamb lies down on Broadway</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/sjRQgTbbfwA?list=PLWnwFAnZO1AFYcHK8qq0UgQ0zBMvnVZgC"
+onclick="cA('Genesis_A-trick-of-the-tail_2.png', 'Genesis_A-trick-of-the-tail_1.jpg', 'Genesis_A-trick-of-the-tail_3.png'), escribir('Genesis', 'A trick of the tail'), color('', '#794200')">
+<img src="Genesis_A-trick-of-the-tail_1.jpg" id="portada"/></a><a id="texto">
+Genesis - A trick of the tail</a>""",
+"""<a target="0" href="https://www.youtube.com/watch?v=EjLEOBHANkM&list=OLAK5uy_kTYG01aDFwJvrud4JAl_mwz5lq2cvU0i4"
+onclick="cA('Genesis_And-Then-There-Were-Three_2.png', 'Genesis_And-Then-There-Were-Three_1.png', 'Genesis_And-Then-There-Were-Three_3.png'), escribir('Genesis', 'And Then There Were Three'), color('', '')">
+<img src="Genesis_And-Then-There-Were-Three_1.png" id="portada"/></a><a id="texto">
+Genesis - And Then There Were Three</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=UywKZcH_Wk0&list=OLAK5uy_naJd5iL3yhRc2mXcbsH8TfkoZ81P0tmuQ"
+onclick="cA('Alan-PP_Eye-in-the-sky_2.png', 'Alan-PP_Eye-in-the-sky_1.png', 'Alan-PP_Eye-in-the-sky_3.png'), escribir('The Alan Parsons project', 'Eye in the sky'), color('', '')">
+<img src="Alan-PP_Eye-in-the-sky_1.png" id="portada_alt"/></a><a id="texto">
+The Alan Parsons project - Eye in the sky</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=HoHuUc7fa4I?autoplay=1"
+onclick="cA('Alan-PP_I-robot_2.png', 'Alan-PP_I-robot_1.jpg', 'Alan-PP_I-robot_3.png'), escribir('The Alan Parsons project', 'I robot'), color('', '')">
+<img src="Alan-PP_I-robot_1.jpg" id="portada_alt"/></a><a id="texto">
+The Alan Parsons project - I robot</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=9eA3ETi7cyg"
+onclick="cA('Anderson-Stolt_Invention-of-knowledge_2.png', 'Anderson-Stolt_Invention-of-knowledge_1.png', 'Anderson-Stolt_Invention-of-knowledge_3.png'), escribir('Anderson/Stolt', 'Invention of Knowledge'), color('', '')">
+<img src="Anderson-Stolt_Invention-of-knowledge_1.png" id="portada_alt"/></a><a id="texto">
+Anderson/Stolt - Invention of Knowledge</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=ojUR9O5sJAw&list=PL9EAiJXXtc-bdbxNvRZCRs402jnbC_bxw&index=1"
+onclick="cA('Aphrodites-child_666_2.png', 'Aphrodites-child_666_1.jpg', 'Aphrodites-child_666_3.png'), escribir('Aphrodite´s Child', '666'), color('', '#fb0023')">
+<img src="Aphrodites-child_666_1.jpg" id="portada_alt"/></a><a id="texto">
+Aphrodites child - 666</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/04qf3dCi00A?list=OLAK5uy_lAc_Uwk2wGf-M_Xi-0lKDzsmd2Cl4ejA0"
+onclick="cA('Atomic-Rooster_Death-Walks-Behind-You_2.png', 'Atomic-Rooster_Death-Walks-Behind-You_1.png', 'Atomic-Rooster_Death-Walks-Behind-You_3.png'), escribir('Atomic Rooster', 'Death Walks Behind You'), color('', '')">
+<img src="Atomic-Rooster_Death-Walks-Behind-You_1.png" id="portada"/></a><a id="texto">
+Atomic Rooster - Death Walks Behind You</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=5UBoZQ3Uq7g&list=OLAK5uy_mX3dqzhhRCQuDzh3l4D_TXC00xoTk2JkA"
+onclick="cA('Banco-del-Mutuo-Soccorso_Banco-del-Mutuo-Soccorso_2.png', 'Banco-del-Mutuo-Soccorso_Banco-del-Mutuo-Soccorso_1.png', 'Banco-del-Mutuo-Soccorso_Banco-del-Mutuo-Soccorso_3.png'), escribir('Banco del Mutuo Soccorso', 'Banco del Mutuo Soccorso'), color('', '')">
+<img src="Banco-del-Mutuo-Soccorso_Banco-del-Mutuo-Soccorso_1.png" id="portada_alt"/></a><a id="texto">
+Banco del Mutuo Soccorso - Banco del Mutuo Soccorso</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=xzYpwlYlKKQ&list=PLL44kuYYS8ynt5hJ5BdD1z7O55uy2V4p9"
+onclick="cA('Camel_A-live-record_2.png', 'Camel_A-live-record_1.png', 'Camel_A-live-record_3.png'), escribir('Camel', 'A live record'), color('', '')">
+<img src="Camel_A-live-record_1.png" id="portada_alt"/></a><a id="texto">
+Camel - A live record</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/JF5IZ1iweoE?list=OLAK5uy_k582-AOCMO9C5yBXJNN_oUUbJ-jXBPcnA"
+onclick="cA('Camel_Mirage_2.png', 'Camel_Mirage_1.png', 'Camel_Mirage_3.png'), escribir('Camel', 'Mirage'), color('', 'linear-gradient(0deg, #76390c, #b7a75c, #76390c, #b7a75c, #76390c, #b7a75c, #b7a75c, #76390c, #b7a75c,#eada8f, #ffed98)')">
+<img src="Camel_Mirage_1.png" id="portada"/></a><a id="texto">
+Camel - Mirage</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=d2rNTucewWQ&list=PLL44kuYYS8ynA6gOq_FBh9ChuxC0hdHXv&index=1"
+onclick="cA('Camel_Moonmadness_2.png', 'Camel_Moonmadness_1.png', 'Camel_Moonmadness_3.png'), escribir('Camel', 'Moonmadness'), color('#42000e', '#4f5484')">
+<img src="Camel_Moonmadness_1.png" id="portada_alt"/></a><a id="texto">
+Camel - Moonmadness</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=Vm7eV8JFFvI&list=PLVhqvw2roTnU3gR_D4yXTnZ_Y1OYQmNWX"
+onclick="cA('Camel_Nude_2.png', 'Camel_Nude_1.png', 'Camel_Nude_3.png'), escribir('Camel', 'Nude'), color('#132041', '#c3324d')">
+<img src="Camel_Nude_1.png" id="portada_alt"/></a><a id="texto">
+Camel - Nude</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=o51kWja3Rrw"
+onclick="cA('Camel_The-snow-goose_2.png', 'Camel_The-snow-goose_1.png', 'Camel_The-snow-goose_3.png'), escribir('Camel', 'The Snow Goose'), color('#0b0828', 'linear-gradient(180deg, #6888dd, #292050)')">
+<img src="Camel_The-snow-goose_1.png" id="portada_alt"/></a><a id="texto">
+Camel - The Snow Goose</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=hbPfPCz3GRA&list=PL6ogdCG3tAWiozhOMlb_gyCTvrJXHYK_Q"
+onclick="cA('Caravan_In-the-land-of-gray-and-pink_2.png', 'Caravan_In-the-land-of-gray-and-pink_1.png', 'Caravan_In-the-land-of-gray-and-pink_3.png'), escribir('Caravan', 'In the land of gray and pink'), color('#b97483', '#353535')">
+<img src="Caravan_In-the-land-of-gray-and-pink_1.png" id="portada_alt"/></a><a id="texto">
+Caravan - In the land of gray and pink</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=E7hoX7golZI&list=PLs9zwqXsceUiF7cDaywDwyUaH0oEhTwhO&index=1"
+onclick="cA('Charles-Mingus_Mingus-Ah-Um_2.png', 'Charles-Mingus_Mingus-Ah-Um_1.png', 'Charles-Mingus_Mingus-Ah-Um_3.png'), escribir('Charles Mingus', 'Mingus Ah Um'), color('', '')">
+<img src="Charles-Mingus_Mingus-Ah-Um_1.png" id="portada_alt"/></a><a id="texto">   
+Charles Mingus - Mingus Ah Um</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/SKMKglJ8CZw"
+onclick="cA('Chet-Baker_Lets-get-lost_2.png', 'Chet-Baker_Lets-get-lost_1.png', 'Chet-Baker_Lets-get-lost_3.png'), escribir('Chet Baker', 'Let’s Get Lost'), color('#0c575f', '#e75a75')">
+<img src="Chet-Baker_Lets-get-lost_1.png" id="portada"/></a><a id="texto">
+Chet Baker - Let’s Get Lost</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=xZ7niucpiz4?autoplay=1"
+onclick="cA('disco-respaldo_2.png', 'Chris-Botti_In-Boston_1.png'), escribir('Chris Botti', 'In Boston'), color('', '#2f903f')">
+<img src="Chris-Botti_In-Boston_1.png" id="portada_alt"/></a><a id="texto">
+Chris Botti - In Boston</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/mhGXySiqT7Q?list=OLAK5uy_lXJGLyAKLJKuc4-KSIMYxAruaWtvgXNrE"
+onclick="cA('Chris-Squire_Fish-out-of-water_2.png', 'Chris-Squire_Fish-out-of-water_1.png', 'Chris-Squire_Fish-out-of-water_3.png'), escribir('Chris Squire', 'Fish out of water'), color('#01131e', '#7f7f7f')">
+<img src="Chris-Squire_Fish-out-of-water_1.png" id="portada"/></a><a id="texto">
+Chris Squire - Fish out of water</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=FqPC-BkylxA&list=PLDCdjwiC90TH1RIKCTjfre4mkJGjRKCk7&index=1     "
+onclick="cA('Dave-Brubeck-Quartet_Time-Out_2.png', 'Dave-Brubeck-Quartet_Time-Out_1.png', 'Dave-Brubeck-Quartet_Time-Out_3.png'), escribir('Dave Brubeck Quartet', 'Time Out'), color('', '')">
+<img src="Dave-Brubeck-Quartet_Time-Out_1.png" id="portada_alt"/></a><a id="texto">       
+Dave Brubeck Quartet - Time Out</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/cCBMPdqDAS0"
+onclick="cA('Focus_Moving-waves_2.png', 'Focus_Moving-waves_1.png', 'Focus_Moving-waves_3.png'), escribir('Focus', 'Moving Waves'), color('#0c0b0d', 'linear-gradient(180deg, #e236ff17, #0000008a), radial-gradient(#771887, #8f66cd, #6d2192, #815ed2, #763592, #7b6bd7, #6e3178, #2b2262)')">
+<img src="Focus_Moving-waves_1.png" id="portada"/></a><a id="texto">
+Focus - Moving Waves</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/UwA38tvb4Ek?list=OLAK5uy_lQ3Uu4LQT5fvcsDVIymfs5DSeySPI_3kk        "
+onclick="cA('Greenslade_Greenslade_2.png', 'Greenslade_Greenslade_1.png', 'Greenslade_Greenslade_3.png'), escribir('Greenslade', 'Greenslade'), color('', '')">
+<img src="Greenslade_Greenslade_1.png" id="portada"/></a><a id="texto">
+Greenslade - Greenslade</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=WYRrIBqKsJ4&list=OLAK5uy_m789U0dt-J4aLVd7p-dXJxSfDliep-NT0&index=1"
+onclick="cA('Herbie-Hancock_Head-Hunters_2.png', 'Herbie-Hancock_Head-Hunters_1.png', 'Herbie-Hancock_Head-Hunters_3.png'), escribir('Herbie Hancock', 'Head Hunters'), color('', '')">
+<img src="Herbie-Hancock_Head-Hunters_1.png" id="portada_alt"/></a><a id="texto">
+Herbie Hancock - Head Hunters</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=b8PRv0O61hw&list=OLAK5uy_lq7BARArsy6NVt9yS1"
+onclick="cA('Hiromi_Sonicwonderland_2.png', 'Hiromi_Sonicwonderland_1.png', 'Hiromi_Sonicwonderland_3.png'), escribir('Hiromi', 'So'), color('', '')">
+<img src="Hiromi_Sonicwonderland_1.png" id="portada_alt"/></a><a id="texto">
+Hiromi - Sonicwonderland</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=mjSwQH1EDSs&list=PLsvS06Sla-bchPMJIHhs6YwABm7IyJX49&index=1"
+onclick="cA('Jerry-Herman_Hello,-Dolly!_2.png', 'Jerry-Herman_Hello,-Dolly!_1.png', 'Jerry-Herman_Hello,-Dolly!_3.png'), escribir('Jerry Herman', 'Hello, Dolly!'), color('', '')">
+<img src="Jerry-Herman_Hello,-Dolly!_1.png" id="portada_alt"/></a><a id="texto">
+Jerry Herman - Hello, Dolly!</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=8pjK-7h5TC0?autoplay=1"
+onclick="cA('Jethro-Tull_Thick-as-a-brick_2.png', 'Jethro-Tull_Thick-as-a-brick_1.png'), escribir('Jethro Tull', 'Thick as a brick'), color('#28252c', '#e64343')">
+<img src="Jethro-Tull_Thick-as-a-brick_1.png" id="portada_alt"/></a><a id="texto">
+Jethro Tull - Thick as a brick</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/Ll7w7Q1uIAk?list=PLglUu7rOaMDvV15pylVp6iC2Wkkf7q2sy"
+onclick="cA('Jimi-Hendrix-XP_Are-you-experienced_2.png', 'Jimi-Hendrix-XP_Are-you-experienced_1.png', 'Jimi-Hendrix-XP_Are-you-experienced_3.png'), escribir('the Jimi Hendrix Experience', 'Are You Experienced'), color('#27293C', '#EBBB1E')">
+<img src="Jimi-Hendrix-XP_Are-you-experienced_1.png" id="portada"/></a><a id="texto">
+the Jimi Hendrix Experience - Are You Experienced</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=7IKC2BW4pxc"
+onclick="cA('Jimmy-Smith_The-Sermon_2.png', 'Jimmy-Smith_The-Sermon_1.png', 'Jimmy-Smith_The-Sermon_3.png'), escribir('Jimmy Smith', 'The Sermon!'), color('#000000', '#246f9d')">
+<img src="Jimmy-Smith_The-Sermon_1.png" id="portada_alt"/></a><a id="texto">
+Jimmy Smith - The Sermon!</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=UlFNy9iWrpE?autoplay=1"
+onclick="cA('John-Coltrane_My-favorite-things_2.png', 'John-Coltrane_My-favorite-things_1.png', 'John-Coltrane_My-favorite-things_3.png'), escribir('John Coltrane', 'My favorite things'), color('#0b6481', '#ed7a14')">
+<img src="John-Coltrane_My-favorite-things_1.png" id="portada_alt"/></a><a id="texto">
+John Coltrane - My favorite things</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=dQpFNuavw7A&list=OLAK5uy_kb8LjeVgRoP8eZWUkaSBuYiNly_I8Cvwc"
+onclick="cA('disco-respaldo_2.png', 'Keith-Emerson_Changing-states_1.png', 'Keith-Emerson_Changing-states_3.png'), escribir('Keith Emerson', 'Changing States'), color('', '')">
+<img src="Keith-Emerson_Changing-states_1.png" id="portada_alt"/></a><a id="texto">
+Keith Emerson - Changing States</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=LN7hPkcmUKo&list=OLAK5uy_nwZIyGl98a_lrrrUYV8h8KMYNol6lpL4E"
+onclick="cA('disco-respaldo_2.png', 'Keith-Emerson_Emerson-plays-Emerson_1.png', 'Keith-Emerson_Emerson-plays-Emerson_3.png'), escribir('Keith Emerson', 'Emerson Plays Emerson'), color('#111a2b', 'radial-gradient(transparent, transparent, #111a2b), linear-gradient(180deg, #ed1414, #ed1414, #ed5414, #ed1414, #ed1414)')">
+<img src="Keith-Emerson_Emerson-plays-Emerson_1.png" id="portada_alt"/></a><a id="texto">
+Keith Emerson - Emerson Plays Emerson</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=RR8TNqQu38o&list=PLoIDt_C5y1LugTv3rHEojgkGShlOrInVB"
+onclick="cA('Keith-Emerson_Honky_2.png', 'Keith-Emerson_Honky_1.png', 'Keith-Emerson_Honky_3.png'), escribir('Keith Emerson ', 'Honky'), color('#091b2c', '#3d9979')">
+<img src="Keith-Emerson_Honky_1.png" id="portada_alt"/></a><a id="texto">
+Keith Emerson - Honky</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/LCZlp8jdpOA?list=PLoIDt_C5y1LuUd-KN0Th-qttp-2AgqncC"
+onclick="cA('Keith-Emerson_Inferno_2.png', 'Keith-Emerson_Inferno_1.png'), escribir('Keith Emerson', 'Inferno'), color('#420a10', 'linear-gradient(45deg, black, #c0133d, black, #0f7ca0, black)')">
+<img src="Keith-Emerson_Inferno_1.png" id="portada"/></a><a id="texto">
+Keith Emerson - Inferno</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=3ZWFlB7zEbM&list=OLAK5uy_kovIf4mXXWeie1kPGPvtnynrCgNN3cuOE"
+onclick="cA('Keith-Emerson_Nighthawks_2.png', 'Keith-Emerson_Nighthawks_1.png', 'Keith-Emerson_Nighthawks_3.png'), escribir('Keith Emerson', 'Nighthawks'), color('', '')">
+<img src="Keith-Emerson_Nighthawks_1.png" id="portada_alt"/></a><a id="texto">      
+Keith Emerson - Nighthawks</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/dCzmF6NtRro?list=PLoIDt_C5y1Lt4gDG3msPdTxltfryLs7-o"
+onclick="cA('Keith-Emerson_The-Christmas-Album_2.png', 'Keith-Emerson_The-Christmas-Album_1.png', 'Keith-Emerson_The-Christmas-Album_3.png'), escribir('Keith Emerson', 'The Christmas Album'), color('', '')">
+<img src="Keith-Emerson_The-Christmas-Album_1.png" id="portada"/></a><a id="texto">
+Keith Emerson - The Christmas Album</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=oaIO1btSv7g&list=OLAK5uy_mzRo13baeAP0cxff7qZcmCre5sMFTh3OI"
+onclick="cA('Keith-Emerson-Band_Featuring-Marc-Bonilla_2.png', 'Keith-Emerson-Band_Featuring-Marc-Bonilla_1.png', 'Keith-Emerson-Band_Featuring-Marc-Bonilla_3.png'), escribir('Keith Emerson Band', 'Featuring Marc Bonilla'), color('#1e010a', 'linear-gradient(174deg,#1c0700, #7b331c, #7b331c, #991f33, #682946, #441028, #747474, #cccccc, #4c4c4c)')">
+<img src="Keith-Emerson-Band_Featuring-Marc-Bonilla_1.png" id="portada_alt"/></a><a id="texto">
+Keith Emerson Band - Featuring Marc Bonilla</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=Rrsi1KUHhCM&list=PLoIDt_C5y1LuaNbvbnr5eMdR-G-zaESmu"
+onclick="cA('Keith-Emerson-Band_2.png', 'Keith-Emerson-Band_1.png', 'Keith-Emerson-Band_3.png'), escribir('Keith Emerson Band', 'Three Fates Project'), color('#245671', 'linear-gradient(29deg, #96aec4, transparent, #002d63, #214753, #08075a, black)')">
+<img src="Keith-Emerson-Band_1.png" id="portada_alt"/></a><a id="texto">
+Keith Emerson Band - Three Fates Project</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=hfOCeNYS-eM&list=OLAK5uy_n4lCRBhZYeZB7M4t32_CnBJF2EgQsAiHo&index=1"
+onclick="cA('disco-respaldo_2.png', 'KE-GH-MB_Boys-Club_1.png', 'KE-GH-MB_Boys-Club_3.png'), escribir('Keith Emerson, Glenn Hughes, Marc Bonilla', 'Boys Club: Live From California'), color('#121212', '#ed142a')">
+<img src="KE-GH-MB_Boys-Club_1.png" id="portada_alt"/></a><a id="texto">
+Keith Emerson, Glenn Hughes, Marc Bonilla - Boys Club: Live From California</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/jQonScZ048U?list=PLvVInkWctBZv_lYEQEwFcrk1bgM2TRNRm"
+onclick="cA('Keith-Emerson-Trio_Keith-Emerson-Trio_2.png', 'Keith-Emerson-Trio_Keith-Emerson-Trio_1.png', 'Keith-Emerson-Trio_Keith-Emerson-Trio_1.png'), escribir('Keith Emerson Trio', 'Keith Emerson Trio'), color('#0c1035', '#ac8753')">
+<img src="Keith-Emerson-Trio_Keith-Emerson-Trio_1.png" id="portada"/></a><a id="texto">
+Keith Emerson Trio - Keith Emerson Trio</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=7OvW8Z7kiws&list=PLXhfRoiJBIiuXOUv_7EJ1i7UKj0aGfy0U"
+onclick="cA('King-Crimson_In-the-court-of-the-crimson-king_2.png', 'King-Crimson_In-the-court-of-the-crimson-king_1.png', 'King-Crimson_In-the-court-of-the-crimson-king_3.png'), escribir('King Crimson', 'In The Court Of The Crimson King'), color('#203857', '#c93b56')">
+<img src="King-Crimson_In-the-court-of-the-crimson-king_1.png" id="portada_alt"/></a><a id="texto">
+King Crimson - In The Court Of The Crimson King</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=X_pDwv3tpug&list=PLjPIe5KlzbfVieL1zPh3LjDNJQBV98WTF"
+onclick="cA('King-Crimson_Red_2.png', 'King-Crimson_Red_1.jpg'), escribir('King crimson', 'Red'), color('#9e0c0c', '#0f0f0f')">
+<img src="King-Crimson_Red_1.jpg" id="portada_alt"/></a><a id="texto">
+King crimson - Red</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=AduzmFEANJU&list=OLAK5uy_mRquLg9xeV5jbMjN90H86ADdLipHxeFCY&index=1&pp=8AUB"
+onclick="cA('Locanda-Delle-Fate_Forse-le-lucciole-non-si-amano-piu_2.png', 'Locanda-Delle-Fate_Forse-le-lucciole-non-si-amano-piu_1.png', 'Locanda-Delle-Fate_Forse-le-lucciole-non-si-amano-piu_3.png'), escribir('Locanda Delle Fate', 'Forse Le Lucciole Non Si Amano Piu'), color('#031125', '#7096d7')">
+<img src="Locanda-Delle-Fate_Forse-le-lucciole-non-si-amano-piu_1.png" id="portada_alt"/></a><a id="texto">
+Locanda Delle Fate - Forse Le Lucciole Non Si Amano Piu</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=10_6aInQ3jI&list=PLfM0RQhM6C7N_QxCx4vlwndwcI1rAod3U"
+onclick="cA('Luis-Alberto-Spinetta_A-18\'-del-Sol_2.png', 'Luis-Alberto-Spinetta_A-18\'-del-Sol_1.png', 'Luis-Alberto-Spinetta_A-18\'-del-Sol_3.png'), escribir('Luis Alberto Spinetta', 'A 18\' del Sol'), color('', '')">
+<img src="Luis-Alberto-Spinetta_A-18'-del-Sol_1.png" id="portada_alt"/></a><a id="texto"> 
+Luis Alberto Spinetta - A 18' del Sol</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=9OjWBjvpr4s&list=OLAK5uy_nRHkNZbNmbix880hI28SWmMM0DsaNCtu8"
+onclick="cA('Magma_Mekanik-Destruktiw-Kommandoh_2.png', 'Magma_Mekanik-Destruktiw-Kommandoh_1.png', 'Magma_Mekanik-Destruktiw-Kommandoh_3.png'), escribir('Magma', 'Mëkanïk Dëstruktïẁ Kömmandöh'), color('', '')">
+<img src="Magma_Mekanik-Destruktiw-Kommandoh_1.png" id="portada_alt"/></a><a id="texto">
+Magma - Mëkanïk Dëstruktïẁ Kömmandöh</a>""",
+"""<a target="1" href="https://www.youtube.com/playlist?list=PLcvZ5KmI-bv5wBuLZk_A8_nlbGLkLAigs"
+onclick="cA('Manhattan-Transfer_Manhattan-Transfer_2.png', 'Manhattan-Transfer_Manhattan-Transfer_1.png', 'Manhattan-Transfer_Manhattan-Transfer_3.png'), escribir('Manhattan Transfer', 'The Manhattan Transfer'), color('#001c28', '#166495')">
+<img src="Manhattan-Transfer_Manhattan-Transfer_1.png" id="portada_alt"/></a><a id="texto">
+Manhattan Transfer - The Manhattan Transfer</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/M9tpfzTBeq0?start=29"
+onclick="cA('Miles-Davis_Kind-of-blue_2.png', 'Miles-Davis_Kind-of-blue_1.png', 'Miles-Davis_Kind-of-blue_3.png'), escribir('Miles Davis', 'Kind of blue'), color('#04153f', '#2f67b2')">
+<img src="Miles-Davis_Kind-of-blue_1.png" id="portada"/></a><a id="texto">
+Miles Davis - Kind of blue</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=uZCzH8q1hcY&t=0s"
+onclick="cA('Moody-Blues_Days-of-future-passed_2.png', 'Moody-Blues_Days-of-future-passed_1.png', 'Moody-Blues_Days-of-future-passed_3.png'), escribir('The Moody Blues', 'Days Of Future Passed'), color('', 'radial-gradient(#c16a6a, #da6161, #ff0000, #b15c0d, #f3e10c, #23d251, #086414, #789fe1, #4f54aa, #1e14ac, #4a12c9, #000000)')">
+<img src="Moody-Blues_Days-of-future-passed_1.png" id="portada_alt"/></a><a id="texto">
+Moody Blues - Days Of Future Passed</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=gEj3NOW_ctw&list=OLAK5uy_l7_ahSGv1dH0uO2_o_glRWZOOzgBr9Ju4&index=1"
+onclick="cA('Moody-Blues_In-Search-Of-The-Lost-Chord_2.png', 'Moody-Blues_In-Search-Of-The-Lost-Chord_1.png', 'Moody-Blues_In-Search-Of-The-Lost-Chord_3.png'), escribir('Moody Blues', 'In Search Of The Lost Chord'), color('', '')">
+<img src="Moody-Blues_In-Search-Of-The-Lost-Chord_1.png" id="portada_alt"/></a><a id="texto">
+Moody Blues - In Search Of The Lost Chord</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/SxwFnHmeunI?list=PLhoAYlq8Sy7Nx7vsWafwHSybVBZVKYt9k"
+onclick="cA('Nektar_A-Tab-in-the-ocean_2.png', 'Nektar_A-Tab-in-the-ocean_1.png'), escribir('Nektar', 'A Tab in the Ocean'), color('', '')">
+<img src="Nektar_A-Tab-in-the-ocean_1.png" id="portada"/></a><a id="texto">
+Nektar - A Tab in the Ocean</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=u1i24LNre4U?autoplay=1"
+onclick="cA('Nektar_Remember-the-future_2.png', 'Nektar_Remember-the-future_1.png', 'Nektar_Remember-the-future_3.png'), escribir('Nektar', 'Remember the future'), color('#ff8a00', '#000000')">
+<img src="Nektar_Remember-the-future_1.png" id="portada_alt"/></a><a id="texto">
+Nektar - remember the future</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/04je0iekGLc?list=PLCIVQjOLLGl4OIwmaxJ-0EcHL0mZSLQMc"
+onclick="cA('The-Nice_Ars-longa-vita-brevis_2.png', 'The-Nice_Ars-longa-vita-brevis_1.png', 'The-Nice_Ars-longa-vita-brevis_3.png'), escribir('The Nice', 'Ars longa vita brevis'), color('', '')">
+<img src="The-Nice_Ars-longa-vita-brevis_1.png" id="portada"/></a><a id="texto">
+The Nice - Ars longa vita brevis</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=_AVJio9ptnQ&list=OLAK5uy_lH1-i3O_urL06yDYr34G8IbLNK77E7xfs"
+onclick="cA('The-Nice_Elegy_2.png', 'The-Nice_Elegy_1.png', 'The-Nice_Elegy_3.png'), escribir('The Nice', 'Elegy'), color('#285052', 'linear-gradient(90deg, #bebebe, #dc1010, #a31c1c, #7a0b0b, #640c0c, #670606, #dc1010, #f3a63a, #dc1010)')">
+<img src="The-Nice_Elegy_1.png" id="portada_alt"/></a><a id="texto">
+The Nice - Elegy</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=A6i1RqHXN_g&list=OLAK5uy_lQuUGgDUqgYegtdiqRFJ4asV_WCbgFiDQ"
+onclick="cA('The-Nice_Five-bridges_2.png', 'The-Nice_Five-bridges_1.png', 'The-Nice_Five-bridges_3.png'), escribir('The Nice', 'Five Bridges'), color('#1b011e', 'linear-gradient(358deg, #b991b4, #87418a, #473dad)')">
+<img src="The-Nice_Five-bridges_1.png" id="portada_alt"/></a><a id="texto">
+The Nice - Five Bridges</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=Zel9zLEDG_M&list=OLAK5uy_ldyNexEls4qXOeXFHV_Q7MrOewX0nD-w0&index=1"
+onclick="cA('disco-respaldo_2.png', 'The-Nice_LATFE-D-1969_1.png', 'The-Nice_LATFE-D-1969_3.png'), escribir('The Nice', 'Live At The Fillmore East December 1969'), color('', '')">
+<img src="The-Nice_LATFE-D-1969_1.png" id="portada_alt"/></a><a id="texto">
+The Nice - Live At The Fillmore East December 1969</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/6tFiqKaKF5o?list=OLAK5uy_kHVczP7UuMoYucIIYIUcDGIr0OS-1w3YY"
+onclick="cA('The-Nice_Nice_2.png', 'The-Nice_Nice_1.png', 'The-Nice_Nice_3.png'), escribir('The Nice', 'Nice'), color('#440c0c', 'linear-gradient(180deg, black, #dc5008, #dc5008,  #dc5008, #dc5008, #cccccc)')">
+<img src="The-Nice_Nice_1.png" id="portada"/></a><a id="texto">
+The Nice - Nice</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/Gtp38oBjjLA?list=PLoRgLeHX0tkFLcieSHIF7rcLYVScKSZql"
+onclick="cA('The-Nice_The-thoughts-of-emerlist-davjack_2.png', 'The-Nice_The-thoughts-of-emerlist-davjack_1.png', 'The-Nice_The-thoughts-of-emerlist-davjack_3.png'), escribir('The Nice', 'The thoughts of Emerlist Davjack'), color('', 'linear-gradient(138deg, #245a38, #b25454, #bf913d, #64506b)')">
+<img src="The-Nice_The-thoughts-of-emerlist-davjack_1.png" id="portada"/></a><a id="texto">
+The Nice - The thoughts of Emerlist Davjack</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=nKpIwX2P118&list=OLAK5uy_mIUb26KtP3IKBx_GoHbIibfw6MGpCri7k&index=1"
+onclick="cA('Opeth_Blackwater-park_2.png', 'Opeth_Blackwater-park_1.png', 'Opeth_Blackwater-park_3.png'), escribir('Opeth', 'Blackwater Park'), color('', '')">
+<img src="Opeth_Blackwater-park_1.png" id="portada_alt"/></a><a id="texto">
+Opeth - Blackwater Park</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=H5u2IlRt9bE&list=OLAK5uy_nwyU-lCdG9A5X1O4LggL4wKrlandnmLoE"
+onclick="cA('PFM_Chocolate-kings_2.png', 'PFM_Chocolate-kings_1.png', 'PFM_Chocolate-kings_3.png'), escribir('PFM', 'Chocolate Kings'), color('#181818', '#b9b9b9')">
+<img src="PFM_Chocolate-kings_1.png" id="portada_alt"/></a><a id="texto">
+PFM - Chocolate Kings</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=tOUdghTbRgk&list=OLAK5uy_lKqj-ZYFx7CmHG9m8zDsR3RoAys3O7INc&index=1"
+onclick="cA('PFM_L\'isola-di-niente_2.png', 'PFM_L\'isola-di-niente_1.png', 'PFM_L\'isola-di-niente_3.png'), escribir('PFM', 'L\'isola di niente'), color('', '')">
+<img src="PFM_L'isola-di-niente_1.png" id="portada_alt"/></a><a id="texto">
+PFM - L'isola di niente</a>""",
+"""<a target="1" href="https://www.youtube.com/playlist?list=OLAK5uy_nGjLtSDQkUaw0YriIWeS-t6J9pf91B8to"
+onclick="cA('PFM_Per-un-amico_2.png', 'PFM_Per-un-amico_1.png', 'PFM_Per-un-amico_3.png'), escribir('PFM', 'Per un Amico'), color('#053d23', '#c45f78')">
+<img src="PFM_Per-un-amico_1.png" id="portada_alt"/></a><a id="texto">
+PFM - Per un Amico</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=OQNfwm9mGAI&t=0s"
+onclick="cA('PFM_Photos-of-ghosts_2.png', 'PFM_Photos-of-ghosts_1.png'), escribir('PFM', 'Photos Of Ghosts'), color('', '#b25d68')">
+<img src="PFM_Photos-of-ghosts_1.png" id="portada_alt"/></a><a id="texto">
+PFM - Photos Of Ghosts</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=jVpgr3A-TC0"
+onclick="cA('PFM_The-world-became-the-world_2.png', 'PFM_The-world-became-the-world_1.png', 'PFM_The-world-became-the-world_3.png'), escribir('PFM', 'The World Became the World'), color('#070b32', 'linear-gradient(23deg, #53a3df, #b8c8dd, #4752c4, #556495, #7ca2da, #141db0, #53a3df, #b8c8dd, #4752c4, #556495, #7ca2da, #141db0)')">
+<img src="PFM_The-world-became-the-world_1.png" id="portada_alt"/></a><a id="texto">
+PFM - The World Became the World</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/tS_9UlOn06o?autoplay=1"
+onclick="cA('Pink-Floyd_Atom-heart-mother_2.png', 'Pink-Floyd_Atom-heart-mother_1.png', 'Pink-Floyd_Atom-heart-mother_3.png'), escribir('Pink Floyd', 'Atom heart mother'), color('', '#8ba6b3')">
+<img src="Pink-Floyd_Atom-heart-mother_1.png" id="portada"/></a><a id="texto">
+Pink Floyd - Atom heart mother</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/hsr4PmeEocE?autoplay=1"
+onclick="cA('Pink-Floyd_Dark-side-of-the-moon_2.png', 'Pink-Floyd_Dark-side-of-the-moon_1.png'), escribir('Pink Floyd', 'Dark side of the moon'), color('#10121a', 'linear-gradient(180deg, red, #ff5500, #ffcf00, #3bc400, #0097ff, #490d71)')">
+<img src="Pink-Floyd_Dark-side-of-the-moon_1.png" id="portada"/></a><a id="texto">
+Pink Floyd - Dark side of the moon</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/TMy_mYkwl4M?autoplay=1"
+onclick="cA('Pink-Floyd_Wish-you-were-here_2.png', 'Pink-Floyd_Wish-you-were-here_1.png'), escribir('Pink Floyd', 'Wish you were here'), color('#748ea4', '#000000')">
+<img src="Pink-Floyd_Wish-you-were-here_1.png" id="portada"/></a><a id="texto">
+Pink Floyd - Wish you were here</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/WMcLoouGu-o?list=PLGfb2R92OHul6B1GBr1niUp0JyGGEqLzT"
+onclick="cA('Refugee-Refugee_2.png', 'Refugee-Refugee_1.png', 'Refugee-Refugee_3.png'), escribir('Refugee', 'Refugee'), color('', '')">
+<img src="Refugee-Refugee_1.png" id="portada"/></a><a id="texto">
+Refugee - Refugee</a>""",
+"""<a target="1" href="https://www.youtube.com/playlist?list=OLAK5uy_kLlzvwRGj185pGq9yYhveAzan1m0qWHbQ"
+onclick="cA('Renaissance_Ashes-are-burning_2.png', 'Renaissance_Ashes-are-burning_1.png', 'Renaissance_Ashes-are-burning_3.png'), escribir('Renaissance', 'Ashes are burning'), color('#3a0904', '#ca7b0d')">
+<img src="Renaissance_Ashes-are-burning_1.png" id="portada_alt"/></a><a id="texto">
+Renaissance - Ashes are burning</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=JqDX_njvEMQ"
+onclick="cA('Return-to-forever_Romantic-warrior_2.png', 'Return-to-forever_Romantic-warrior_1.png', 'Return-to-forever_Romantic-warrior_3.png'), escribir('Return to Forever', 'Romantic Warrior'), color('', '')">
+<img src="Return-to-forever_Romantic-warrior_1.png" id="portada_alt"/></a><a id="texto">
+Return to Forever - Romantic Warrior</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=ZB-URmzBXLE&list=OLAK5uy_nembk5kjOJF5iADyGHHLTzhRD8CZvrjBA"
+onclick="cA('Return-to-Forever_where-have-I-known-you-before_2.png', 'Return-to-Forever_where-have-I-known-you-before_1.png', 'Return-to-Forever_where-have-I-known-you-before_3.png'), escribir('Return To Forever', 'Where Have I Known You Before'), color('', '')">
+<img src="Return-to-Forever_where-have-I-known-you-before_1.png" id="portada_alt"/></a><a id="texto">
+Return To Forever - Where Have I Known You Before</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=suWf9aC8pf8?autoplay=1"
+onclick="cA('Rick-Wakeman_Journey_2.png', 'Rick-Wakeman_Journey_1.png'), escribir('Rick Wakeman', 'Journey to the center of the Earth'), color('#1d213f', 'linear-gradient(0deg, #c43600, #c43600, #c43600, #0d3d1a,  #0d3d1a,  #0d3d1a)')">
+<img src="Rick-Wakeman_Journey_1.png" id="portada_alt"/></a><a id="texto">
+Rick Wakeman - Journey to the center of the Earth</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=VExLG8E6tMA&list=PL98Z8Hc6f785ZTdLw1irsAtM94YHjB9ct"
+onclick="cA('Rick-Wakeman_King-Arthur_2.png', 'Rick-Wakeman_King-Arthur_1.png'), escribir('Rick Wakeman', 'The myths and legends of King Arthur and the knights of the round table'), color('#000000')">
+<img src="Rick-Wakeman_King-Arthur_1.png" id="portada_alt"/></a><a id="texto">
+Rick Wakeman - The myths and legends of King Arthur and the knights of the round table</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=1J00015lLDM?autoplay=1"
+onclick="cA('Rick-Wakeman_Six-Wives_2.png', 'Rick-Wakeman_Six-Wives_1.png', 'Rick-Wakeman_Six-Wives_3.png'), escribir('Rick Wakeman', 'The six wives of Henry VIII'), color('#342102', '#ffdc9a')">
+<img src="Rick-Wakeman_Six-Wives_1.png" id="portada_alt"/></a><a id="texto">
+Rick Wakeman - The six wives of Henry VIII</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/osN-dGs2d2A?list=PLoRgLeHX0tkEkfPsmpE2rofqtvKb2F4ZN"
+onclick="cA('Rush_2112_2.png', 'Rush_2112_1.jpg', 'Rush_2112_3.png'), escribir('Rush', '2112'), color('#570517', 'linear-gradient(45deg, #0a98d5, #2c0493, #d00000)')">
+<img src="Rush_2112_1.jpg" id="portada"/></a><a id="texto">
+Rush - 2112</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/a3t6iHhYksc?list=OLAK5uy_lownOqwPptvzcpnLmA24k_RMsXPykRJ5o"
+onclick="cA('Rush_Caress-of-steel_2.png', 'Rush_Caress-of-steel_1.png', 'Rush_Caress-of-steel_3.png'), escribir('Rush', 'Caress of Steel'), color('#062325', 'linear-gradient(90deg, rgb(216, 130, 10), rgb(168, 101, 8), rgb(255, 148, 0), rgb(216, 130, 10), rgb(250, 213, 53), rgb(239, 218, 130), rgb(216, 130, 10), rgb(216, 130, 10), rgb(159, 96, 9))')">
+<img src="Rush_Caress-of-steel_1.png" id="portada"/></a><a id="texto">
+Rush - Caress of Steel</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/a9h2H5Sgzfw?list=PLoRgLeHX0tkEUeaGyhsYqT4LXpmxCyVzf"
+onclick="cA('Rush_Fly-by-night_2.png', 'Rush_Fly-by-night_1.png', 'Rush_Fly-by-night_3.png'), escribir('Rush', 'Fly by night'), color('#0c2735', '#c58100')">
+<img src="Rush_Fly-by-night_1.png" id="portada"/></a><a id="texto">
+Rush - Fly by night</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=J0zN0VjA3As&list=OLAK5uy_kELgPyKgsiZsDu5flHoFButD1XFxgc2NI"
+onclick="cA('Rush_Hemispheres_2.png', 'Rush_Hemispheres_1.png'), escribir('Rush', 'Hemispheres'), color('', '')">
+<img src="Rush_Hemispheres_1.png" id="portada_alt"/></a><a id="texto">
+Rush - Hemispheres</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=auLBLk4ibAk&list=OLAK5uy_mqiUUrmZRm1dwrX78OHxpnLU3bnDaRhSQ&index=1"
+onclick="cA('Rush_Moving-pictures_2.png', 'Rush_Moving-pictures_1.png', 'Rush_Moving-pictures_3.png'), escribir('Rush', 'Moving Pictures'), color('#000000', '#be0627')">
+<img src="Rush_Moving-pictures_1.png" id="portada_alt"/></a><a id="texto">
+Rush - Moving Pictures</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/-YBp4hv91CI?list=OLAK5uy_mIsHLdqG31t6B64ZELH3KloXkSfi9-1fM"
+onclick="cA('Rush_Rush_2.png', 'Rush_Rush_1.png'), escribir('Rush', 'Rush'), color('#131313','#ec2424')">
+<img src="Rush_Rush_1.png" id="portada"/></a><a id="texto">
+Rush - Rush</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/kllzW8mp05A"
+onclick="cA('Santana_Abraxas_2.png', 'Santana_Abraxas_1.png', 'Santana_Abraxas_3.png'), escribir('Santana', 'Abraxas'), color('', 'linear-gradient(0deg, #cccccc3d, #cccccc3d), linear-gradient(89deg, #d70d0d, red, #d58813, #cd1322, #2b189f, #3890b2, #18552c, #d75011, #581e72,#d70d0d, red, #d58813, #cd1322, #2b189f, #3890b2, #18552c, #d75011, #581e72)')">
+<img src="Santana_Abraxas_1.png" id="portada"/></a><a id="texto">
+Santana - Abraxas</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/5iboBj_tfLg?list=PLWVo2tank-zx0epEsi873zm5JDFC1UZpd"
+onclick="cA('Seru-Giran_Seru-Giran_2.png', 'Seru-Giran_Seru-Giran_1.png', 'Seru-Giran_Seru-Giran_3.png'), escribir('Serú Girán', 'Serú Girán'), color('#000000', '#a1a1a1')">
+<img src="Seru-Giran_Seru-Giran_1.png" id="portada"/></a><a id="texto">
+Serú Girán - Serú Girán</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/ai4KnHqpOcU?list=OLAK5uy_nQwGIivTlbkEp1OeJMlRYpeM-TJjOTVeQ"
+onclick="cA('Squackett_A-life-within-a-day_2.png', 'Squackett_A-life-within-a-day_1.png'), escribir('Squackett', 'A life within a day'), color('#12252a', 'linear-gradient(90deg, #d8820a, #a86508, #ff9400, #d8820a, #fad535, #efda82, #d8820a, #d8820a, #9f6009)')">
+<img src="Squackett_A-life-within-a-day_1.png" id="portada"/></a><a id="texto">
+Squackett - A life within a day</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=XRj0Ohg-y1A&list=OLAK5uy_nNSt2pxzqur9OlUok2h9mJDnHQ1YqFA-8"
+onclick="cA('Steely-Dan_Aja_2.png', 'Steely-Dan_Aja_1.jpg', 'Steely-Dan_Aja_3.png'), escribir('Steely Dan', 'Aja'), color('#b81c1c', '#0b0b0b')">
+<img src="Steely-Dan_Aja_1.jpg" id="portada_alt"/></a><a id="texto">
+Steely Dan - Aja</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=e9xxqhnxTWA&list=OLAK5uy_kU7s08yxOauvOvSXkeE49_BsUc1L2sYDY&index=1"
+onclick="cA('Steely-Dan_Cant-buy-a-thrill_2.png', 'Steely-Dan_Cant-buy-a-thrill_1.png', 'Steely-Dan_Cant-buy-a-thrill_3.png'), escribir('Steely Dan', 'Can`t Buy A Thrill'), color('', 'linear-gradient(90deg, #990932, #c3c3c3, #850b63, #b83712, #0a54ad, #036e23, #d09d13)')">
+<img src="Steely-Dan_Cant-buy-a-thrill_1.png" id="portada_alt"/></a><a id="texto">
+Steely Dan - Can't Buy A Thrill</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=pdrbsYBe4xE&list=OLAK5uy_mMaUINXqrOUZwdceYNAFcDfasUtTG65dI&index=1"
+onclick="cA('Steve-Hackett_Please-Don\'t-Touch_2.png', 'Steve-Hackett_Please-Don\'t-Touch_1.png', 'Steve-Hackett_Please-Don\'t-Touch_3.png'), escribir('Steve Hackett', 'Please Don\'t Touch'), color('', '')">
+<img src="Steve-Hackett_Please-Don't-Touch_1.png" id="portada_alt"/></a><a id="texto">    
+Steve Hackett - Please Don't Touch</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=hCQhNIIJk-k&list=PLL-HWMvwk2ZdV1wmmuBQbEjNbBU6z4boG"
+onclick="cA('Steve-Hackett_Voyage-of-the-acolyte_2.png', 'Steve-Hackett_Voyage-of-the-acolyte_1.jpg'), escribir('Steve Hackett', 'Voyage of the Acolyte'), color('#043b41', '#90bedc')">
+<img src="Steve-Hackett_Voyage-of-the-acolyte_1.jpg" id="portada_alt"/></a><a id="texto">
+Steve Hackett - Voyage of the Acolyte</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=e53qJF35mt0&list=OLAK5uy_m1CN9XaN_r6Kg46VO2t-bhQz6fclcPOuw"
+onclick="cA('Steve-Howe_Beginnings_2.png', 'Steve-Howe_Beginnings_1.jpg'), escribir('Steve Howe', 'Beginnings'), color('#112652', 'linear-gradient(180deg, #d43016, #d48b16)')">
+<img src="Steve-Howe_Beginnings_1.jpg" id="portada_alt"/></a><a id="texto">
+Steve Howe - Beginnings</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=WSTUvJOl-Q0&list=PLL44kuYYS8ynXmfom_ZSi_cQZOzqfZpYt"
+onclick="cA('Strawbs_Hero-and-heroine_2.png', 'Strawbs_Hero-and-heroine_1.png', 'Strawbs_Hero-and-heroine_3.png'), escribir('Strawbs', 'Hero And Heroine'), color('#451131', '#b99ea3')">
+<img src="Strawbs_Hero-and-heroine_1.png" id="portada_alt"/></a><a id="texto">
+Strawbs - Hero And Heroine</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=AwlbjCzO9KU&list=PLs9zwqXsceUjhNRxJXuljXqJlEoDvJV8E&index=1"
+onclick="cA('Thelonious-Monk_Brilliant-Corners_2.png', 'Thelonious-Monk_Brilliant-Corners_1.png', 'Thelonious-Monk_Brilliant-Corners_3.png'), escribir('Thelonious Monk', 'Brilliant Corners'), color('', '')">
+<img src="Thelonious-Monk_Brilliant-Corners_1.png" id="portada_alt"/></a><a id="texto">
+Thelonious Monk - Brilliant Corners</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/-H9fZKdFJoE?list=PLoRgLeHX0tkHqonCHjH1nwT8dKR2m5tdp"
+onclick="cA('UK_Danger-money_2.png', 'UK_Danger-money_1.jpg', 'UK_Danger-money_3.png'), escribir('UK', 'Danger money'), color('#00221e', 'linear-gradient(351deg, #2a5553, #2e8f92, #0a5048, #2e8f92, #0b3f46)')">
+<img src="UK_Danger-money_1.jpg" id="portada"/></a><a id="texto">
+UK - Danger money</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=SvhmaNlLgRM&list=OLAK5uy_nKfEqWV_VGMeAudh8isjqshvSEekG98iM"
+onclick="cA('Weather-Report_Heavy-weather_2.png', 'Weather-Report_Heavy-weather_1.png', 'Weather-Report_Heavy-weather_3.png'), escribir('Weather Report', 'Heavy Weather'), color('#0f2444', 'linear-gradient(45deg, #ae070d, #c03916, #e9552e, #312f5c, #444d93, #9e99d3)')">
+<img src="Weather-Report_Heavy-weather_1.png" id="portada_alt"/></a><a id="texto">
+Weather Report - Heavy Weather</a>""",
+"""<a target="1" href="https://www.yout"
+onclick="cA('Wendy-Carlos_Switched-on-Bach_2.png', 'Wendy-Carlos_Switched-on-Bach_1.png', 'Wendy-Carlos_Switched-on-Bach_3.png'), escribir('Wendy Carlos', 'Switched-on Bach'), color('', '')">
+<img src="Wendy-Carlos_Switched-on-Bach_1.png" id="portada_alt"/></a><a id="texto">
+Wendy Carlos - Switched-on Bach</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=xagZWGEtI2A&list=PL_ZwpC8SOCfifTPnlvbLbBbf0Kh0_eenJ"
+onclick="cA('Wishbone-Ash_Argus_2.png', 'Wishbone-Ash_Argus_1.png'), escribir('Wishbone Ash', 'Argus'), color('', '')">
+<img src="Wishbone-Ash_Argus_1.png" id="portada_alt"/></a><a id="texto">
+Wishbone Ash - Argus</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/CzmIu-VjRCM"
+onclick="cA('Borodin_Prince-Igor_2.png', 'Borodin_Prince-Igor_1.jpg'), escribir('Borodin', 'Prince Igor'), color('', '')">
+<img src="Borodin_Prince-Igor_1.jpg" id="portada"/></a><a id="texto">
+Alexander Borodin - Prince Igor</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=Isic2Z2e2xs?autoplay=1"
+onclick="cA('Gustav-Holst_The-planets_2.png', 'Gustav-Holst_The-planets_1.png'), escribir('Gustav Holst', 'The planets'), color('', '')">
+<img src="Gustav-Holst_The-planets_1.png" id="portada_alt"/></a><a id="texto">
+Gustav Holst - The planets</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=gpsHUUHZb9w&list=PLoRgLeHX0tkHiOTW33OY5EeDNa_OMM-a0&index=1"
+onclick="cA('Arturo-Marquez_Arturo-Marquez_2.png', 'Arturo-Marquez_Arturo-Marquez_1.png'), escribir('Arturo Márquez', ''), color('', 'linear-gradient(90deg, #c81717, black, #2961ca, #080660, #1a4e2a, #d78811)')">
+<img src="Arturo-Marquez_Arturo-Marquez_1.png" id="portada_alt"/></a><a id="texto">
+Arturo Márquez -</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/WgOFUpuBlu4"
+onclick="cA('Rimsky-Korsakov_Scheherazade_2.png', 'Rimsky-Korsakov_Scheherazade_1.jpg'), escribir('Rimsky-Korsakov', 'Scheherazade, Polovtsian Dances'), color('', '')">
+<img src="Rimsky-Korsakov_Scheherazade_1.jpg" id="portada"/></a><a id="texto">
+Rimsky-Korsakov, Borodin - Scheherazade, Polovtsian Dances (reference recording: Sir Thomas Beecham)</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=4eGJN_eNXS4?autoplay=1"
+onclick="cA('disco-respaldo_2.png', 'Mussorgsky-Ravel_Pictures-at-an-Exhibition_1.png'), escribir('Mussorgsky-Ravel', 'Pictures at an Exhibition'), color('', '#1c806c')">
+<img src="Mussorgsky-Ravel_Pictures-at-an-Exhibition_1.png" id="portada_alt"/></a><a id="texto">
+Mussorgsky, Ravel - Pictures at an Exhibition</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=UAMgFhi4-AI&list=PLA939E5B08BE7A183"
+onclick="cA('disco-respaldo_2.png', 'Carl-Orff_Carmina-Burana_1.png'), escribir('Carl Orff', 'Carmina Buran'), color('#0a2d26', '#d02a2a')">
+<img src="Carl-Orff_Carmina-Burana_1.png" id="portada_alt"/></a><a id="texto">
+Carl Orff - Carmina Buran</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/esD90diWZds?autoplay=1"
+onclick="cA('disco-respaldo_2.png', 'Igor-Stravinsky_Petrushka_1.png'), escribir('Igor Stravinsky', 'Petrouchka'), color('#204487', '#ea4439')">
+<img src="Igor-Stravinsky_Petrushka_1.png" id="portada"/></a><a id="texto">
+Igor Stravinsky - Petrouchka</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/tk5Uturacx8?autoplay=1"
+onclick="cA('disco-respaldo_2.png', 'Tchaikovsky_The-nutcracker_1.png'), escribir('Tchaikovsky', 'The Nutcracker'), color('#141d32')">
+<img src="Tchaikovsky_The-nutcracker_1.png" id="portada"/></a><a id="texto">
+Tchaikovsky - The Nutcracker </a>""",
+"""<a target="0" href="https://www.youtube.com/embed/7G3bWPUW6Jw?list=OLAK5uy_kumBk-OR6rpI8Zh9kO77yqYhDu4UnI8YE"
+onclick="cA('ELP_Love-Beach_2.png', 'ELP_Love-Beach_1.png', 'ELP_Love-Beach_3.png'), escribir('ELP', 'Love Beach'), color('', '')">
+<img src="ELP_Love-Beach_1.png" id="portada"/></a><a id="texto">
+ELP - Love Beach</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=9vwjfRMSm3A&list=PLmJvHNd9SFm9NMrLw4ui_mniFgNZdt-w3&index=1"
+onclick="cA('Bee-Gees_Geratest-hits_2.png', 'Bee-Gees_Geratest-hits_1.png', 'Bee-Gees_Geratest-hits_3.png'), escribir('Bee Gees', 'Greatest Hits'), color('', '#edaa14')">
+<img src="Bee-Gees_Geratest-hits_1.png" id="portada_alt"/></a><a id="texto">
+Bee Gees - Greatest Hits</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=XAJXuPqllRA&list=OLAK5uy_kRBhyHjGRpkOO-hNSxgoYCKvBaAnrNLTo&index=1"
+onclick="cA('Burt-Bacharach_Hit-Maker_2.png', 'Burt-Bacharach_Hit-Maker_1.jpg', 'Burt-Bacharach_Hit-Maker_3.png'), escribir('Burt Bacharach', 'Hit Maker!'), color('', '')">
+<img src="Burt-Bacharach_Hit-Maker_1.jpg" id="portada_alt"/></a><a id="texto">
+Burt Bacharach - Hit Maker!</a>""",
+"""<a target="1" href="https://www.youtube.com/watch?v=weUhBGA8mxo?autoplay=1"
+onclick="cA('Prince_1999_2.png', 'Prince_1999_1.png'), escribir('Prince', '1999'), color('#5c2278', '#300383')">
+<img src="Prince_1999_1.png" id="portada_alt"/></a><a id="texto">
+Prince - 1999</a>""",
+"""<a target="0" href="https://www.youtube.com/embed/gjpeL6aGJAI?autoplay=1"
+onclick="cA('Prince_Purple-Rain_2.png', 'Prince_Purple-Rain_1.png', 'Prince_Purple-Rain_3.png'), escribir('Prince', 'Purple Rain'), color('', '')">
+<img src="Prince_Purple-Rain_1.png" id="portada"/></a><a id="texto">
+Prince - Purple Rain </a>""",
+"""<a target="0" href="https://www.youtube.com/embed/EVolCHbpk34?autoplay=1"
+onclick="cA('Prince_Sign-O-The-Times_2.png', 'Prince_Sign-O-The-Times_1.png'), escribir('Prince', 'Sign O´ The Times'), color('', '#c07b0a')">
+<img src="Prince_Sign-O-The-Times_1.png" id="portada"/></a><a id="texto">
+Prince - Sign O' The Times </a>"""

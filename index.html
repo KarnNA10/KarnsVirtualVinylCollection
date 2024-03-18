@@ -1,0 +1,238 @@
+<!doctype html> 
+<html id="html">  
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script type="text/javascript" src="jajascript.js"></script>
+        <link rel="icon" type="image/jpg" href="img/icon.jpg">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Karn's Virtual Vinyl Collection</title>
+        </head> 
+
+<script>
+  const list=[
+['Yes', 'YES', ['Yes_Yes_1.png', 'Yes_The-yes-album_2.png', 'png', ''], ['#3a1117', '#ff9416'], 'iframe_a', 'https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9'],
+['Yes', 'Time and a word', ['Yes_Time-and-a-word_1.png', 'png', 'png', ''], ['#09011e', '#f0c900'], 'iframe_a', 'https://www.youtube.com/embed/bcc_pW8f4Yo?list=PL16FF0C44194CFCE1'],
+['Yes', 'The Yes Album', ['Yes_The-yes-album_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=3N6AeSM0AKU&list=PLo2aaBamFnLR0tS9GQc1mpQj_dGzUqzEM'],
+['Yes', 'Fragile', ['Yes_Fragile_1.png', 'png', 'png', ''], ['#090422', '#7caeb8'], '_blank', 'https://www.youtube.com/watch?v=3hE7HZCVVRU?autoplay=1'],
+['Yes', 'Close to the Edge', ['Yes_Close-to-the-edge_1.png', 'png', 'png', ''], ['', "linear-gradient(165deg, black, #0b571b, #00ff2e)"], '_blank', 'https://www.youtube.com/watch?v=GNkWac-Nm0A?autoplay=1'],
+['Yes', 'Yessongs', ['Yes_Yessongs_1.jpg', 'png', 'png', ''], ['', '#672b36'], '_blank', 'https://www.youtube.com/watch?v=qXN2Tojqhts?autoplay=1'],
+['Yes', 'Tales from topographic oceans', ['Yes_Tales_1.png', 'png', 'png', ''], ['#070124', '#a2a2b3'], 'iframe_a', 'https://www.youtube.com/embed/2-tnnbwIYys?list=PLoRgLeHX0tkHeRLKRW4As37dtxc3iGE8U'],
+['Yes', 'Relayer', ['Yes_Relayer_1.jpg', 'png', 'png', ''], ['#181b22', '#ce7912'], '_blank', 'https://www.youtube.com/watch?v=quPoq2699Xo&t=0s'],
+['Yes', 'Going for the one', ['Yes_Going-for-the-one_1.jpg', 'png', 'png', ''], ['#3b569b', ''], '_blank', 'https://www.youtube.com/watch?v=8_8MNVzQv6E?autoplay=1'],
+['Yes', 'Drama', ['Yes_Drama_1.png', 'png', 'png', ''], ['#040e14', '#4b69a7'], '_blank', 'https://www.youtube.com/watch?v=NLWDsXTdeiM&list=PLvsYXqtYjMYfAhOzB15ncmHf-SymYIWvt'],
+['ELP', 'Emerson', ['ELP_ELP_1.png', 'png', 'png', ''], ['', '#c9195f'], 'iframe_a', 'https://www.youtube.com/embed/JwmSS_64IN4?list=OLAK5uy_nWYVLlCgxodhqh5PuVKeNwfnxE7rW5xsY'],
+['ELP', 'Tarkus', ['ELP_Tarkus_1.png', 'png', 'png', ''], ['#0f2b4a', 'linear-gradient(189deg, #1e5787, #FFFFFF, rgb(232, 186, 0), rgb(232, 186, 0), rgb(240, 130, 13), rgb(240, 130, 13), rgb(240, 89, 0), rgb(240, 89, 0), rgb(87, 44, 3), rgb(87, 44, 3), rgb(59, 105, 50), rgb(59, 105, 50), rgb(58, 7, 106), rgb(58, 7, 106), rgb(73, 33, 7), rgb(73, 33, 7), rgb(45, 56, 143), #2d388f, #2d388f)'], 'iframe_a', 'https://www.youtube.com/embed/QQ1Zo6faTQY?list=PL_7uDR7uwx35vz46V87pkru_Sk2Antz4t                                       '],
+['ELP', 'Trilogy', ['ELP_Trilogy_1.png', 'png', 'png', ''], ['#320b1d', '#ac4f7a'], 'iframe_a', 'https://www.youtube.com/embed/3O35mcfY7nE?list=OLAK5uy_nbuBqLng1HncYf0TOEPHlJni91H64hynA'],  
+['ELP', 'Pictures at an exhibition', ['ELP_Pictures_1.png', 'png', 'png', ''], ['', '#a8182c'], 'iframe_a', 'https://www.youtube.com/embed/4XxnETYIRyc?list=PLoRgLeHX0tkGwomaXfy8p0MAR4eMxoItX'],
+['ELP', 'Brain salad surgery', ['ELP_Brain-salad-surgery_1.png', 'png', 'png', ''], ['#0d0d0f', '#c40000'], 'iframe_a', 'https://www.youtube.com/embed/EiefkbOwjz4?list=PLoRgLeHX0tkFmOtQA_QiLMm2qqQbQXWEu'],
+['ELP', 'Welcome back my friends to the show that never ends', ['ELP_Welcome-back_1.png', 'png', 'png', ''], ['#0e0e41', '#837dae'], 'iframe_a', 'https://www.youtube.com/embed/MlUA9S8hJpo?list=PLoRgLeHX0tkFtNKwWhMx_26u1G8S_wvnX'],
+['ELP', 'Works Vol. 1', ['ELP_Works-Vol-1_1.jpg', 'png', 'png', ''], ['#273a4f', '#08090a'], 'iframe_a', 'https://www.youtube.com/embed/JbU7R8nzPSM?list=PL_tKhcwp1CMJdxpMWsq5P9CUbTozZdpdE'],['ELP', 'Works Vol. 2', ['ELP_Works-Vol-2_1.png', 'png', 'png', ''], ['#000000', '#cccccc'], '_blank', 'https://www.youtube.com/watch?v=8aa7kw65nXc&list=OLAK5uy_nZtFLUbmnEE8LLS058-z3Uf3sGOTFGy6o'],
+['ELP', 'In Concert', ['ELP_In-Concert_1.png', 'png', 'png', ''], ['#020a25', "radial-gradient(transparent, transparent, #050421), linear-gradient(180deg, #2a3c71, #2a3c71, #b7c5c8, #2a3c71, #2a3c71)"], 'iframe_a', 'https://www.youtube.com/embed/AyMdFGizWN4?list=PLs6qUl61yIU9g3FSsxw1pfmDU5HebswSU'],
+['ELP', 'Black Moon', ['ELP_Black-Moon_1.png', 'png', 'png', ''], ['#10355a', ''], 'iframe_a', 'https://www.youtube.com/embed/BoTKJL_zeK4?list=PLeRTwzsK7qf-o4HeJ9EnJd4lKNHZWyA2K'],
+['Emerson Lake & Powell', 'Emerson Lake & Powell', ['Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_1.png', 'png', 'png', ''], ['#080808', '#e91e15'], '_blank', 'https://www.youtube.com/watch?v=HuxJlaEkt20&list=OLAK5uy_noA1rSrOWXngRhxPYA3gO11qMtrki0lqQ'],
+['Genesis', 'Trespass', ['Genesis_Trespass_1.png', 'png', 'png', ''], ['#3c78a4', '#000000'], 'iframe_a', 'https://www.youtube.com/embed/E7Z_xXh7gm8?list=PLWnwFAnZO1AHvF50JS7mgXh3ZGsF3phcz'],
+['Genesis', 'Nursery Cryme', ['Genesis_Nursery-cryme_1.png', 'png', 'png', ''], ['', '#ed5a14'], 'iframe_a', 'https://www.youtube.com/embed/ptqOXXhCpgs?list=OLAK5uy_kcdTV9DHP8chjWvVCDONrizSnps-SWcyw'],
+['Genesis', 'Foxtrot', ['Genesis_Foxtrot_1.jpg', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/2agWXrNJGjg?list=PLWnwFAnZO1AFU-KtZVhHY6lTnZRk_MYBS'],
+['Genesis', 'Selling England by the pound', ['Genesis_Selling-England_1.png', 'png', 'png', ''], ['', '#afb85a'], 'iframe_a', 'https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD'],
+['Genesis', 'The lamb lies down on Broadway', ['Genesis_The-lamb_1.png', 'png', 'png', ''], ['#000000', ''], 'iframe_a', 'https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m'],
+['Genesis', 'A trick of the tail', ['Genesis_A-trick-of-the-tail_1.jpg', 'png', 'png', ''], ['', '#794200'], 'iframe_a', 'https://www.youtube.com/embed/sjRQgTbbfwA?list=PLWnwFAnZO1AFYcHK8qq0UgQ0zBMvnVZgC'],
+['Genesis', 'And Then There Were Three', ['Genesis_And-Then-There-Were-Three_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/watch?v=EjLEOBHANkM&list=OLAK5uy_kTYG01aDFwJvrud4JAl_mwz5lq2cvU0i4'],
+
+['The Alan Parsons project', 'Eye in the sky', ['Alan-PP_Eye-in-the-sky_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=UywKZcH_Wk0&list=OLAK5uy_naJd5iL3yhRc2mXcbsH8TfkoZ81P0tmuQ'],
+['The Alan Parsons project', 'I robot', ['Alan-PP_I-robot_1.jpg', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=HoHuUc7fa4I?autoplay=1'],
+['Anderson/Stolt', 'Invention of Knowledge', ['Anderson-Stolt_Invention-of-knowledge_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=9eA3ETi7cyg'],
+['Aphrodite´s Child', '666', ['Aphrodites-child_666_1.jpg', 'png', 'png', ''], ['', '#fb0023'], '_blank', 'https://www.youtube.com/watch?v=ojUR9O5sJAw&list=PL9EAiJXXtc-bdbxNvRZCRs402jnbC_bxw&index=1'],
+['Arturo Márquez', 'Comp.', ['Arturo-Marquez_Arturo-Marquez_1.png', 'png', '', ''], ['', 'linear-gradient(90deg, #c81717, black, #2961ca, #080660, #1a4e2a, #d78811)'], '_blank', 'https://www.youtube.com/watch?v=gpsHUUHZb9w&list=PLoRgLeHX0tkHiOTW33OY5EeDNa_OMM-a0&index=1'],
+['Atomic Rooster', 'Death Walks Behind You', ['Atomic-Rooster_Death-Walks-Behind-You_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/04qf3dCi00A?list=OLAK5uy_lAc_Uwk2wGf-M_Xi-0lKDzsmd2Cl4ejA0'],
+['Banco del Mutuo Soccorso', 'Banco del Mutuo Soccorso', ['Banco-del-Mutuo-Soccorso_Banco-del-Mutuo-Soccorso_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=5UBoZQ3Uq7g&list=OLAK5uy_mX3dqzhhRCQuDzh3l4D_TXC00xoTk2JkA'],
+['Bee Gees', 'Greatest Hits', ['Bee-Gees_Geratest-hits_1.png', 'png', 'png', ''], ['', '#edaa14'], '_blank', 'https://www.youtube.com/watch?v=9vwjfRMSm3A&list=PLmJvHNd9SFm9NMrLw4ui_mniFgNZdt-w3&index=1'],
+['Borodin', 'Prince Igor', ['Borodin_Prince-Igor_1.jpg', 'png', '', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/CzmIu-VjRCM'],
+['Burt Bacharach', 'Hit Maker!', ['Burt-Bacharach_Hit-Maker_1.jpg', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=XAJXuPqllRA&list=OLAK5uy_kRBhyHjGRpkOO-hNSxgoYCKvBaAnrNLTo&index=1'],
+['Camel', 'A live record', ['Camel_A-live-record_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=xzYpwlYlKKQ&list=PLL44kuYYS8ynt5hJ5BdD1z7O55uy2V4p9'],       
+['Camel', 'Mirage', ['Camel_Mirage_1.png', 'png', 'png', ''], ['', 'linear-gradient(0deg, #76390c, #b7a75c, #76390c, #b7a75c, #76390c, #b7a75c, #b7a75c, #76390c, #b7a75c,#eada8f, #ffed98)'], 'iframe_a', 'https://www.youtube.com/embed/JF5IZ1iweoE?list=OLAK5uy_k582-AOCMO9C5yBXJNN_oUUbJ-jXBPcnA'],
+['Camel', 'Moonmadness', ['Camel_Moonmadness_1.png', 'png', 'png', ''], ['#42000e', '#4f5484'], '_blank', 'https://www.youtube.com/watch?v=d2rNTucewWQ&list=PLL44kuYYS8ynA6gOq_FBh9ChuxC0hdHXv&index=1'],
+['Camel', 'Nude', ['Camel_Nude_1.png', 'png', 'png', ''], ['#132041', '#c3324d'], '_blank', 'https://www.youtube.com/watch?v=Vm7eV8JFFvI&list=PLVhqvw2roTnU3gR_D4yXTnZ_Y1OYQmNWX'],
+['Camel', 'The Snow Goose', ['Camel_The-snow-goose_1.png', 'png', 'png', ''], ['#0b0828', "linear-gradient(180deg, #6888dd, #292050)"], '_blank', 'https://www.youtube.com/watch?v=o51kWja3Rrw'],
+['Caravan', 'In the land of gray and pink', ['Caravan_In-the-land-of-gray-and-pink_1.png', 'png', 'png', ''], ['#b97483', '#353535'], '_blank', 'https://www.youtube.com/watch?v=hbPfPCz3GRA&list=PL6ogdCG3tAWiozhOMlb_gyCTvrJXHYK_Q'],
+['Carl Orff', 'Carmina Buran', ['Carl-Orff_Carmina-Burana_1.png', 'disco-respaldo_2.png', '', ''], ['#0a2d26', '#d02a2a'], '_blank', 'https://www.youtube.com/watch?v=UAMgFhi4-AI&list=PLA939E5B08BE7A183'],
+['Charles Mingus', 'Mingus Ah Um', ['Charles-Mingus_Mingus-Ah-Um_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=E7hoX7golZI&list=PLs9zwqXsceUiF7cDaywDwyUaH0oEhTwhO&index=1'],
+['Chet Baker', 'Let’s Get Lost', ['Chet-Baker_Lets-get-lost_1.png', 'png', 'png', ''], ['#0c575f', '#e75a75'], 'iframe_a', 'https://www.youtube.com/embed/SKMKglJ8CZw'],
+['Chris Botti', 'In Boston', ['Chris-Botti_In-Boston_1.png', 'disco-respaldo_2.png', '', ''], ['', '#2f903f'], '_blank', 'https://www.youtube.com/watch?v=xZ7niucpiz4?autoplay=1'],
+['Chris Squire', 'Fish out of water', ['Chris-Squire_Fish-out-of-water_1.png', 'png', 'png', ''], ['#01131e', '#7f7f7f'], 'iframe_a', 'https://www.youtube.com/embed/mhGXySiqT7Q?list=OLAK5uy_lXJGLyAKLJKuc4-KSIMYxAruaWtvgXNrE'],
+
+['Dave Brubeck Quartet', 'Time Out', ['Dave-Brubeck-Quartet_Time-Out_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=FqPC-BkylxA&list=PLDCdjwiC90TH1RIKCTjfre4mkJGjRKCk7&index=1     '],
+['ELP', 'Love Beach', ['ELP_Love-Beach_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/7G3bWPUW6Jw?list=OLAK5uy_kumBk-OR6rpI8Zh9kO77yqYhDu4UnI8YE'],
+['Focus', 'Moving Waves', ['Focus_Moving-waves_1.png', 'png', 'png', ''], ['radial-gradient(transparent, #ad5ca5, #4a2968, transparent,#6d2d89, #5f4ec1, transparent,#4f40a5, #2b2262,transparent) no-repeat fixed content-box , linear-gradient(0deg, #0e0749, #e09bd2, #0e0749)', "linear-gradient(180deg, #e236ff17, #0000008a), radial-gradient(#771887, #8f66cd, #6d2192, #815ed2, #763592, #7b6bd7, #6e3178, #2b2262)"], 'iframe_a', 'https://www.youtube.com/embed/cCBMPdqDAS0'],
+['Greenslade', 'Greenslade', ['Greenslade_Greenslade_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/UwA38tvb4Ek?list=OLAK5uy_lQ3Uu4LQT5fvcsDVIymfs5DSeySPI_3kk        '],
+['Gustav Holst', 'The planets', ['Gustav-Holst_The-planets_1.png', 'png', '', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=Isic2Z2e2xs?autoplay=1'],
+['Herbie Hancock', 'Head Hunters', ['Herbie-Hancock_Head-Hunters_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=WYRrIBqKsJ4&list=OLAK5uy_m789U0dt-J4aLVd7p-dXJxSfDliep-NT0&index=1'],
+['Hiromi', 'So', ['Hiromi_Sonicwonderland_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=b8PRv0O61hw&list=OLAK5uy_lq7BARArsy6NVt9yS1'],
+['Igor Stravinsky', 'Petrouchka', ['Igor-Stravinsky_Petrushka_1.png', 'disco-respaldo_2.png', '', ''], ['#204487', '#ea4439'], 'iframe_a', 'https://www.youtube.com/embed/esD90diWZds?autoplay=1'],
+['Jerry Herman', 'Hello', ['Jerry-Herman_Hello,-Dolly!_1.png', 'Jerry-Herman_Hello', 'Jerry-Herman_Hello', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=mjSwQH1EDSs&list=PLsvS06Sla-bchPMJIHhs6YwABm7IyJX49&index=1'],
+['Jethro Tull', 'Thick as a brick', ['Jethro-Tull_Thick-as-a-brick_1.png', 'png', '', ''], ['#28252c', '#e64343'], '_blank', 'https://www.youtube.com/watch?v=8pjK-7h5TC0?autoplay=1'],       
+['the Jimi Hendrix Experience', 'Are You Experienced', ['Jimi-Hendrix-XP_Are-you-experienced_1.png', 'png', 'png', ''], ['#27293C', '#EBBB1E'], 'iframe_a', 'https://www.youtube.com/embed/Ll7w7Q1uIAk?list=PLglUu7rOaMDvV15pylVp6iC2Wkkf7q2sy'],
+['Jimmy Smith', 'The Sermon!', ['Jimmy-Smith_The-Sermon_1.png', 'png', 'png', ''], ['#000000', '#246f9d'], '_blank', 'https://www.youtube.com/watch?v=7IKC2BW4pxc'],
+['John Coltrane', 'My favorite things', ['John-Coltrane_My-favorite-things_1.png', 'png', 'png', ''], ['#0b6481', '#ed7a14'], '_blank', 'https://www.youtube.com/watch?v=UlFNy9iWrpE?autoplay=1'],
+['Keith Emerson', 'Changing States', ['Keith-Emerson_Changing-states_1.png', 'disco-respaldo_2.png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=dQpFNuavw7A&list=OLAK5uy_kb8LjeVgRoP8eZWUkaSBuYiNly_I8Cvwc'],
+['Keith Emerson', 'Emerson Plays Emerson', ['Keith-Emerson_Emerson-plays-Emerson_1.png', 'disco-respaldo_2.png', 'png', ''], ['#111a2b', "radial-gradient(transparent, transparent, #111a2b), linear-gradient(180deg, #ed1414, #ed1414, #ed5414, #ed1414, #ed1414)"], '_blank', 'https://www.youtube.com/watch?v=LN7hPkcmUKo&list=OLAK5uy_nwZIyGl98a_lrrrUYV8h8KMYNol6lpL4E'],       
+['Keith Emerson ', 'Honky', ['Keith-Emerson_Honky_1.png', 'png', 'png', ''], ['#091b2c', '#3d9979'], '_blank', 'https://www.youtube.com/watch?v=RR8TNqQu38o&list=PLoIDt_C5y1LugTv3rHEojgkGShlOrInVB'],
+['Keith Emerson', 'Inferno', ['Keith-Emerson_Inferno_1.png', 'png', '', ''], ['#420a10', "linear-gradient(45deg, black, #c0133d, black, #0f7ca0, black)"], 'iframe_a', 'https://www.youtube.com/embed/LCZlp8jdpOA?list=PLoIDt_C5y1LuUd-KN0Th-qttp-2AgqncC'],
+['Keith Emerson', 'Nighthawks', ['Keith-Emerson_Nighthawks_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=3ZWFlB7zEbM&list=OLAK5uy_kovIf4mXXWeie1kPGPvtnynrCgNN3cuOE'],
+['Keith Emerson', 'The Christmas Album', ['Keith-Emerson_The-Christmas-Album_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/dCzmF6NtRro?list=PLoIDt_C5y1Lt4gDG3msPdTxltfryLs7-o'],
+['Keith Emerson Band', 'Featuring Marc Bonilla', ['Keith-Emerson-Band_Featuring-Marc-Bonilla_1.png', 'png', 'png', ''], ['#1e010a', "linear-gradient(174deg,#1c0700, #7b331c, #7b331c, #991f33, #682946, #441028, #747474, #cccccc, #4c4c4c)"], '_blank', 'https://www.youtube.com/watch?v=oaIO1btSv7g&list=OLAK5uy_mzRo13baeAP0cxff7qZcmCre5sMFTh3OI'],
+['Keith Emerson Band', 'Three Fates Project', ['Keith-Emerson-Band_1.png', 'png', 'png', ''], ['#245671', "linear-gradient(29deg, #96aec4, transparent, #002d63, #214753, #08075a, black)"], '_blank', 'https://www.youtube.com/watch?v=Rrsi1KUHhCM&list=PLoIDt_C5y1LuaNbvbnr5eMdR-G-zaESmu'],
+['Keith Emerson', 'lenn Hughes', ['KE-GH-MB_Boys-Club_1.png', 'disco-respaldo_2.png', 'png', ''], ['#121212', '#ed142a'], '_blank', 'https://www.youtube.com/watch?v=hfOCeNYS-eM&list=OLAK5uy_n4lCRBhZYeZB7M4t32_CnBJF2EgQsAiHo&index=1'],
+['Keith Emerson Trio', 'Keith Emerson Trio', ['Keith-Emerson-Trio_Keith-Emerson-Trio_1.png', 'png', 'png', ''], ['#0c1035', '#ac8753'], 'iframe_a', 'https://www.youtube.com/embed/jQonScZ048U?list=PLvVInkWctBZv_lYEQEwFcrk1bgM2TRNRm'],
+['King Crimson', 'In The Court Of The Crimson King', ['King-Crimson_In-the-court-of-the-crimson-king_1.png', 'png', 'png', ''], ['#203857', '#c93b56'], '_blank', 'https://www.youtube.com/watch?v=7OvW8Z7kiws&list=PLXhfRoiJBIiuXOUv_7EJ1i7UKj0aGfy0U'],
+['King crimson', 'Red', ['King-Crimson_Red_1.jpg', 'png', '', ''], ['#9e0c0c', '#0f0f0f'], '_blank', 'https://www.youtube.com/watch?v=X_pDwv3tpug&list=PLjPIe5KlzbfVieL1zPh3LjDNJQBV98WTF'],
+
+['Locanda Delle Fate', 'Forse Le Lucciole Non Si Amano Piu', ['Locanda-Delle-Fate_Forse-le-lucciole-non-si-amano-piu_1.png', 'png', 'png', ''], ['#031125', '#7096d7'], '_blank', 'https://www.youtube.com/watch?v=AduzmFEANJU&list=OLAK5uy_mRquLg9xeV5jbMjN90H86ADdLipHxeFCY&index=1&pp=8AUB'],
+['Luis Alberto Spinetta', "A 18' del Sol", ["Luis-Alberto-Spinetta_A-18'-del-Sol_1.png", 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=10_6aInQ3jI&list=PLfM0RQhM6C7N_QxCx4vlwndwcI1rAod3U'],
+['Magma', 'Mëkanïk Dëstruktïẁ Kömmandöh', ['Magma_Mekanik-Destruktiw-Kommandoh_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=9OjWBjvpr4s&list=OLAK5uy_nRHkNZbNmbix880hI28SWmMM0DsaNCtu8'],
+['Manhattan Transfer', 'The Manhattan Transfer', ['Manhattan-Transfer_Manhattan-Transfer_1.png', 'png', 'png', ''], ['#001c28', '#166495'], '_blank', 'https://www.youtube.com/playlist?list=PLcvZ5KmI-bv5wBuLZk_A8_nlbGLkLAigs'],
+['Miles Davis', 'Kind of blue', ['Miles-Davis_Kind-of-blue_1.png', 'png', 'png', ''], ['#04153f', '#2f67b2'], 'iframe_a', 'https://www.youtube.com/embed/M9tpfzTBeq0?start=29'],
+['The Moody Blues', 'Days Of Future Passed', ['Moody-Blues_Days-of-future-passed_1.png', 'png', 'png', ''], ['', 'radial-gradient(#c16a6a, #da6161, #ff0000, #b15c0d, #f3e10c, #23d251, #086414, #789fe1, #4f54aa, #1e14ac, #4a12c9, #000000)'], '_blank', 'https://www.youtube.com/watch?v=uZCzH8q1hcY&t=0s'],
+['The Moody Blues', 'In Search Of The Lost Chord', ['Moody-Blues_In-Search-Of-The-Lost-Chord_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=gEj3NOW_ctw&list=OLAK5uy_l7_ahSGv1dH0uO2_o_glRWZOOzgBr9Ju4&index=1'],
+['Mussorgsky-Ravel', 'Pictures at an Exhibition', ['Mussorgsky-Ravel_Pictures-at-an-Exhibition_1.png', 'disco-respaldo_2.png', '', ''], ['', '#1c806c'], '_blank', 'https://www.youtube.com/watch?v=4eGJN_eNXS4?autoplay=1'],
+['Nektar', 'A Tab in the Ocean', ['Nektar_A-Tab-in-the-ocean_1.png', 'png', '', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/SxwFnHmeunI?list=PLhoAYlq8Sy7Nx7vsWafwHSybVBZVKYt9k'],
+['Nektar', 'Remember the future', ['Nektar_Remember-the-future_1.png', 'png', 'png', ''], ['#ff8a00', '#000000'], '_blank', 'https://www.youtube.com/watch?v=u1i24LNre4U?autoplay=1'],        
+['The Nice', 'Ars longa vita brevis', ['The-Nice_Ars-longa-vita-brevis_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/04je0iekGLc?list=PLCIVQjOLLGl4OIwmaxJ-0EcHL0mZSLQMc'],
+['The Nice', 'Elegy', ['The-Nice_Elegy_1.png', 'png', 'png', ''], ['#285052', "linear-gradient(90deg, #bebebe, #dc1010, #a31c1c, #7a0b0b, #640c0c, #670606, #dc1010, #f3a63a, #dc1010)"], '_blank', 'https://www.youtube.com/watch?v=_AVJio9ptnQ&list=OLAK5uy_lH1-i3O_urL06yDYr34G8IbLNK77E7xfs'],
+['The Nice', 'Five Bridges', ['The-Nice_Five-bridges_1.png', 'png', 'png', ''], ['#1b011e', "linear-gradient(358deg, #b991b4, #87418a, #473dad)"], '_blank', 'https://www.youtube.com/watch?v=A6i1RqHXN_g&list=OLAK5uy_lQuUGgDUqgYegtdiqRFJ4asV_WCbgFiDQ'],
+['The Nice', 'Live At The Fillmore East December 1969', ['The-Nice_LATFE-D-1969_1.png', 'disco-respaldo_2.png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=Zel9zLEDG_M&list=OLAK5uy_ldyNexEls4qXOeXFHV_Q7MrOewX0nD-w0&index=1'],
+['The Nice', 'Nice', ['The-Nice_Nice_1.png', 'png', 'png', ''], ['#440c0c', "linear-gradient(180deg, black, #dc5008, #dc5008,  #dc5008, #dc5008, #cccccc)"], 'iframe_a', 'https://www.youtube.com/embed/6tFiqKaKF5o?list=OLAK5uy_kHVczP7UuMoYucIIYIUcDGIr0OS-1w3YY'],
+['The Nice', 'The thoughts of Emerlist Davjack', ['The-Nice_The-thoughts-of-emerlist-davjack_1.png', 'png', 'png', ''], ['', 'linear-gradient(138deg, #245a38, #b25454, #bf913d, #64506b)'], 'iframe_a', 'https://www.youtube.com/embed/Gtp38oBjjLA?list=PLoRgLeHX0tkFLcieSHIF7rcLYVScKSZql'],
+['Opeth', 'Blackwater Park', ['Opeth_Blackwater-park_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=nKpIwX2P118&list=OLAK5uy_mIUb26KtP3IKBx_GoHbIibfw6MGpCri7k&index=1'],
+['PFM', 'Chocolate Kings', ['PFM_Chocolate-kings_1.png', 'png', 'png', ''], ['#181818', '#b9b9b9'], '_blank', 'https://www.youtube.com/watch?v=H5u2IlRt9bE&list=OLAK5uy_nwyU-lCdG9A5X1O4LggL4wKrlandnmLoE'],
+['PFM', "L'isola di niente", ["PFM_L'isola-di-niente_1.png", 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=tOUdghTbRgk&list=OLAK5uy_lKqj-ZYFx7CmHG9m8zDsR3RoAys3O7INc&index=1'],
+['PFM', 'Per un Amico', ['PFM_Per-un-amico_1.png', 'png', 'png', ''], ['#053d23', '#c45f78'], '_blank', 'https://www.youtube.com/playlist?list=OLAK5uy_nGjLtSDQkUaw0YriIWeS-t6J9pf91B8to'],   
+['PFM', 'Photos Of Ghosts', ['PFM_Photos-of-ghosts_1.png', 'png', '', ''], ['', '#b25d68'], '_blank', 'https://www.youtube.com/watch?v=OQNfwm9mGAI&t=0s'],
+['PFM', 'The World Became the World', ['PFM_The-world-became-the-world_1.png', 'png', 'png', ''], ['#070b32', "linear-gradient(23deg, #53a3df, #b8c8dd, #4752c4, #556495, #7ca2da, #141db0, #53a3df, #b8c8dd, #4752c4, #556495, #7ca2da, #141db0)"], '_blank', 'https://www.youtube.com/watch?v=jVpgr3A-TC0'],
+['Pink Floyd', 'Atom heart mother', ['Pink-Floyd_Atom-heart-mother_1.png', 'png', 'png', ''], ['', '#8ba6b3'], 'iframe_a', 'https://www.youtube.com/embed/tS_9UlOn06o?autoplay=1'],
+['Pink Floyd', 'Dark side of the moon', ['Pink-Floyd_Dark-side-of-the-moon_1.png', 'png', '', ''], ['#10121a', "linear-gradient(180deg, red, #ff5500, #ffcf00, #3bc400, #0097ff, #490d71)"], 'iframe_a', 'https://www.youtube.com/embed/hsr4PmeEocE?autoplay=1'],
+['Pink Floyd', 'Wish you were here', ['Pink-Floyd_Wish-you-were-here_1.png', 'png', '', ''], ['#748ea4', '#000000'], 'iframe_a', 'https://www.youtube.com/embed/TMy_mYkwl4M?autoplay=1'],
+['Prince', '1999', ['Prince_1999_1.png', 'png', '', ''], ['#5c2278', '#300383'], '_blank', 'https://www.youtube.com/watch?v=weUhBGA8mxo?autoplay=1'],
+['Prince', 'Purple Rain', ['Prince_Purple-Rain_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/gjpeL6aGJAI?autoplay=1'],
+['Prince', 'Sign O` The Times', ['Prince_Sign-O-The-Times_1.png', 'png', '', ''], ['', '#c07b0a'], 'iframe_a', 'https://www.youtube.com/embed/EVolCHbpk34?autoplay=1'],
+
+['Refugee', 'Refugee', ['Refugee-Refugee_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/WMcLoouGu-o?list=PLGfb2R92OHul6B1GBr1niUp0JyGGEqLzT'],
+['Renaissance', 'Ashes are burning', ['Renaissance_Ashes-are-burning_1.png', 'png', 'png', ''], ['#3a0904', '#ca7b0d'], '_blank', 'https://www.youtube.com/playlist?list=OLAK5uy_kLlzvwRGj185pGq9yYhveAzan1m0qWHbQ'],
+['Return to Forever', 'Romantic Warrior', ['Return-to-forever_Romantic-warrior_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=JqDX_njvEMQ'],
+['Return To Forever', 'Where Have I Known You Before', ['Return-to-Forever_where-have-I-known-you-before_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=ZB-URmzBXLE&list=OLAK5uy_nembk5kjOJF5iADyGHHLTzhRD8CZvrjBA'],
+['Rick Wakeman', 'Journey to the center of the Earth', ['Rick-Wakeman_Journey_1.png', 'png', '', ''], ['#1d213f', "linear-gradient(0deg, #c43600, #c43600, #c43600, #0d3d1a,  #0d3d1a, #0d3d1a)"], '_blank', 'https://www.youtube.com/watch?v=suWf9aC8pf8?autoplay=1'],
+['Rick Wakeman', 'The myths and legends of King Arthur and the knights of the round table', ['Rick-Wakeman_King-Arthur_1.png', 'png', '', ''], ['#000000', ''], '_blank', 'https://www.youtube.com/watch?v=VExLG8E6tMA&list=PL98Z8Hc6f785ZTdLw1irsAtM94YHjB9ct'],
+['Rick Wakeman', 'The six wives of Henry VIII', ['Rick-Wakeman_Six-Wives_1.png', 'png', 'png', ''], ['#342102', '#ffdc9a'], '_blank', 'https://www.youtube.com/watch?v=1J00015lLDM?autoplay=1'],
+['Rimsky-Korsakov', 'Scheherazade', ['Rimsky-Korsakov_Scheherazade_1.jpg', 'png', '', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/WgOFUpuBlu4'],
+['Rush', '2112', ['Rush_2112_1.jpg', 'png', 'png', ''], ['#570517', 'linear-gradient(45deg, #0a98d5, #2c0493, #d00000)'], 'iframe_a', 'https://www.youtube.com/embed/osN-dGs2d2A?list=PLoRgLeHX0tkEkfPsmpE2rofqtvKb2F4ZN'],
+['Rush', 'Caress of Steel', ['Rush_Caress-of-steel_1.png', 'png', 'png', ''], ['#062325', 'linear-gradient(90deg, rgb(216, 130, 10), rgb(168, 101, 8), rgb(255, 148, 0), rgb(216, 130, 10), rgb(250, 213, 53), rgb(239, 218, 130), rgb(216, 130, 10), rgb(216, 130, 10), rgb(159, 96, 9))'], 'iframe_a', 'https://www.youtube.com/embed/a3t6iHhYksc?list=OLAK5uy_lownOqwPptvzcpnLmA24k_RMsXPykRJ5o'],
+['Rush', 'Fly by night', ['Rush_Fly-by-night_1.png', 'png', 'png', ''], ['#0c2735', '#c58100'], 'iframe_a', 'https://www.youtube.com/embed/a9h2H5Sgzfw?list=PLoRgLeHX0tkEUeaGyhsYqT4LXpmxCyVzf'],
+['Rush', 'Hemispheres', ['Rush_Hemispheres_1.png', 'png', '', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=J0zN0VjA3As&list=OLAK5uy_kELgPyKgsiZsDu5flHoFButD1XFxgc2NI'],
+['Rush', 'Moving Pictures', ['Rush_Moving-pictures_1.png', 'png', 'png', ''], ['#000000', '#be0627'], '_blank', 'https://www.youtube.com/watch?v=auLBLk4ibAk&list=OLAK5uy_mqiUUrmZRm1dwrX78OHxpnLU3bnDaRhSQ&index=1'],
+['Rush', 'Rush', ['Rush_Rush_1.png', 'png', '', ''], ['#131313', 'c2424'], 'iframe_a', 'https://www.youtube.com/embed/-YBp4hv91CI?list=OLAK5uy_mIsHLdqG31t6B64ZELH3KloXkSfi9-1fM'],
+['Santana', 'Abraxas', ['Santana_Abraxas_1.png', 'png', 'png', ''], ['', "linear-gradient(0deg, #cccccc3d, #cccccc3d), linear-gradient(89deg, #d70d0d, red, #d58813, #cd1322, #2b189f, #3890b2, #18552c, #d75011, #581e72,#d70d0d, red, #d58813, #cd1322, #2b189f, #3890b2, #18552c, #d75011, #581e72)"], 'iframe_a', 'https://www.youtube.com/embed/kllzW8mp05A'],
+['Serú Girán', 'Serú Girán', ['Seru-Giran_Seru-Giran_1.png', 'png', 'png', ''], ['#000000', '#a1a1a1'], 'iframe_a', 'https://www.youtube.com/embed/5iboBj_tfLg?list=PLWVo2tank-zx0epEsi873zm5JDFC1UZpd'],
+['Squackett', 'A life within a day', ['Squackett_A-life-within-a-day_1.png', 'png', '', ''], ['#12252a', 'linear-gradient(90deg, #d8820a, #a86508, #ff9400, #d8820a, #fad535, #efda82, #d8820a, #d8820a, #9f6009)'], 'iframe_a', 'https://www.youtube.com/embed/ai4KnHqpOcU?list=OLAK5uy_nQwGIivTlbkEp1OeJMlRYpeM-TJjOTVeQ'],
+['Steely Dan', 'Aja', ['Steely-Dan_Aja_1.jpg', 'png', 'png', ''], ['#b81c1c', '#0b0b0b'], '_blank', 'https://www.youtube.com/watch?v=XRj0Ohg-y1A&list=OLAK5uy_nNSt2pxzqur9OlUok2h9mJDnHQ1YqFA-8'],
+['Steely Dan', 'Can`t Buy A Thrill', ['Steely-Dan_Cant-buy-a-thrill_1.png', 'png', 'png', ''], ['', 'linear-gradient(90deg, #990932, #c3c3c3, #850b63, #b83712, #0a54ad, #036e23, #d09d13)'], '_blank', 'https://www.youtube.com/watch?v=e9xxqhnxTWA&list=OLAK5uy_kU7s08yxOauvOvSXkeE49_BsUc1L2sYDY&index=1'],
+['Steve Hackett', "Please Don't Touch", ["Steve-Hackett_Please-Don't-Touch_1.png", 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=pdrbsYBe4xE&list=OLAK5uy_mMaUINXqrOUZwdceYNAFcDfasUtTG65dI&index=1'],
+['Steve Hackett', 'Voyage of the Acolyte', ['Steve-Hackett_Voyage-of-the-acolyte_1.jpg', 'png', '', ''], ['#043b41', '#90bedc'], '_blank', 'https://www.youtube.com/watch?v=hCQhNIIJk-k&list=PLL-HWMvwk2ZdV1wmmuBQbEjNbBU6z4boG'],
+['Steve Howe', 'Beginnings', ['Steve-Howe_Beginnings_1.jpg', 'png', '', ''], ['#112652', 'linear-gradient(180deg, #d43016, #d48b16)'], '_blank', 'https://www.youtube.com/watch?v=e53qJF35mt0&list=OLAK5uy_m1CN9XaN_r6Kg46VO2t-bhQz6fclcPOuw'],
+['Strawbs', 'Hero And Heroine', ['Strawbs_Hero-and-heroine_1.png', 'png', 'png', ''], ['#451131', '#b99ea3'], '_blank', 'https://www.youtube.com/watch?v=WSTUvJOl-Q0&list=PLL44kuYYS8ynXmfom_ZSi_cQZOzqfZpYt'],
+['Tchaikovsky', 'The Nutcracker', ['Tchaikovsky_The-nutcracker_1.png', 'disco-respaldo_2.png', '', ''], ['', '#141d32'], 'iframe_a', 'https://www.youtube.com/embed/tk5Uturacx8?autoplay=1'], 
+['Thelonious Monk', 'Brilliant Corners', ['Thelonious-Monk_Brilliant-Corners_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=AwlbjCzO9KU&list=PLs9zwqXsceUjhNRxJXuljXqJlEoDvJV8E&index=1'],
+['UK', 'Danger money', ['UK_Danger-money_1.jpg', 'png', 'png', ''], ['#00221e', 'linear-gradient(351deg, #2a5553, #2e8f92, #0a5048, #2e8f92, #0b3f46)'], 'iframe_a', 'https://www.youtube.com/embed/-H9fZKdFJoE?list=PLoRgLeHX0tkHqonCHjH1nwT8dKR2m5tdp'],
+['Weather Report', 'Heavy Weather', ['Weather-Report_Heavy-weather_1.png', 'png', 'png', ''], ['#0f2444', 'linear-gradient(45deg, #ae070d, #c03916, #e9552e, #312f5c, #444d93, #9e99d3)'], '_blank', 'https://www.youtube.com/watch?v=SvhmaNlLgRM&list=OLAK5uy_nKfEqWV_VGMeAudh8isjqshvSEekG98iM'],
+['Wendy Carlos', 'Switched-on Bach', ['Wendy-Carlos_Switched-on-Bach_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.yout'],
+['Wishbone Ash', 'Argus', ['Wishbone-Ash_Argus_1.png', 'png', '', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=xagZWGEtI2A&list=PL_ZwpC8SOCfifTPnlvbLbBbf0Kh0_eenJ']]
+
+function loadAllAlv(){
+  escInf('A', list)
+}
+
+</script>
+
+
+
+<STYLE>A {text-decoration: none;}   </STYLE>
+<!-- [autor, nombre, dir1, dir2, dir3, disc?, colorT, color, target, link]  -->
+
+<body onload="loadAllAlv()">
+  <span class="L">
+    <div class="footer_3">   
+    </div>
+
+    <div id="titulos" name="varios">
+      ▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬<br>
+      <u>☙←←|=╬=| 
+        <a id="cont1"></a> |=╬=|→→❧<br>
+      </u>
+      <a id="cont2"></a>
+      ▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬<br> 
+    </div> 
+    
+    <section class="sec" id="A">
+      <!-- <article>
+        <a target="iframe_a" href="
+        https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9
+        " onclick="correrAnimacion('img/p/Yes_The-yes-album_2.png', 'img/p/Yes_Yes_1.png', 'img/p/Yes_Yes_3.png'), escribir('Yes', 'YES'), color('#3a1117', '#ff9416')">
+        <img src="img/p/Yes_Yes_1.png" class="portada"/> </a>
+        <a class="texto">Yes - Yes</a>
+      </article>
+      <article>
+        <a target="iframe_a" href="
+        https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9
+        " onclick="correrAnimacion('img/p/Yes_The-yes-album_2.png', 'img/p/Yes_Yes_1.png', 'img/p/Yes_Yes_3.png'), escribir('Yes', 'YES'), color('#3a1117', '#ff9416')">
+        <img src="img/p/Yes_Yes_1.png" class="portada"/> </a>
+        <a class="texto">Yes - Yes</a>
+      </article>
+      <article>
+        <a target="iframe_a" href="
+        https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9
+        " onclick="correrAnimacion('img/p/Yes_The-yes-album_2.png', 'img/p/Yes_Yes_1.png', 'img/p/Yes_Yes_3.png'), escribir('Yes', 'YES'), color('#3a1117', '#ff9416')">
+        <img src="img/p/Yes_Yes_1.png" class="portada"/> </a>
+        <a class="texto">Yes - Yes</a>
+      </article>
+      <article>
+        <a target="iframe_a" href="
+        https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9
+        " onclick="correrAnimacion('img/p/Yes_The-yes-album_2.png', 'img/p/Yes_Yes_1.png', 'img/p/Yes_Yes_3.png'), escribir('Yes', 'YES'), color('#3a1117', '#ff9416')">
+        <img src="img/p/Yes_Yes_1.png" class="portada"/></a>
+        <a class="texto">Yes - Yes</a>
+      </article>
+      <article>
+        <a target="iframe_a" href="
+        https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9
+        " onclick="correrAnimacion('img/p/Yes_The-yes-album_2.png', 'img/p/Yes_The-yes-album_1.png', 'img/p/Yes_Yes_3.png'), escribir('Yes', 'YES'), color('#3a1117', '#ff9416')">
+        <img src="img/p/Yes_The-yes-album_1.png" class="portada alt"/> </a>
+        <a class="texto">Yes - Yes</a>
+      </article> -->
+    </section>
+  </span>
+
+  <span class="R">
+    <div class="Rcont2">
+      <marquee class="marq" direction="left" scrollamount="8">
+        ☙←←←|=╬=|<script>textoDia()</script>|=╬=|→→→❧ 
+      </marquee>
+      <div class="turnt" id="footer_3">
+        <img src="img/turnt/1.png" class="t"/>  
+        <div class="insertImg"></div>
+        <a target="iframe_a" href="demo_iframe.html">
+          <img src="img/turnt/3.png" id="pluma" onclick="detener()"/>  
+        </a>  
+      </div>
+    </div>
+    <div class="Rcont1">
+      <a class="iframeCont">
+        <iframe name="iframe_a" src="demo_iframe.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </a>  
+    </div>
+  </span>
+
+
+</body>
+</html>
+
+
+
+

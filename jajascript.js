@@ -5,55 +5,55 @@ function textoDia(){
 var Hoy = new Date();
 var texto; 
 if (Hoy.getDate()%17 == 0){
-   texto = '🐪🌻🐈 Sin nada qué hacer hdscmae 🐪🌻🐈'
+   texto = ' Welcome back my friends to the show that never ends - - We`re so glad you could attend, - - Come inside, come inside - - There behind a glass stands a real blade of grass - - Be careful as you pass, move along, move along'
    } else {
 if (Hoy.getDate()%17 == 1){
-   texto = '🔮🎠💜 Primero que nada buenos días. Le ruego, por favor, que deje en paz esta página. Dedíquese a cosas que sí tiene qué entregar. En serio, cierre esta página. Ólvídese de ella. Adiós. 🔮🎠💜'
+   texto = ' ATTENTION ALL PLANETS OF THE SOLAR FEDERATION - - ATTENTION ALL PLANETS OF THE SOLAR FEDERATION - - ATTENTION ALL PLANETS OF THE SOLAR FEDERATION   - -   WE HAVE ASSUMED CONTROL   - -   WE HAVE ASSUMED CONTROL   - -   WE HAVE ASSUMED CONTROL   '
    } else {
 if (Hoy.getDate()%17 == 2){
-   texto = '🍁🦜🌹 AIiooiuiuuuuiiiiooouuuioiououoiuoiuouoouououoiououi wwwuuuuiiiiiiiwuuuuuuuiiiiiii uuuuuuAAAAAAaaaauuuuuuuAAAAAaaauuu iiii iiii  iiii iiii. Ahora, por favor, abandone esta página. 🍁🦜🌹'
+   texto = ' Out theeeeeeere - - There`s a world outside of yonkerrrrrs - - Way out there beyond this hick town, barnaby - - There`s a slick town, barnabyyyyyyyy - - Out theeeeere - - Full of shine and full of sparkleeeeeeee - - Close your eyes and see it glisten, barnabyyyyyy - - LISTEN, BARNABYYYYYYYYYYyyyyyyyyyyyyy......'
    } else {
 if (Hoy.getDate()%17 == 3){
-   texto = '🌺🌷🌸 "трактор John Deere С двигателями PowerTech ™" 🌺🌷🌸'
+   texto = ' Now you go through Saint Looey - - Joplin, Missouri, - - And Oklahoma City is mighty pretty - - You see Amarillo, - - Gallup, New Mexico, - - Flagstaff, Arizona. - - Don`t forget winona, - - Kingman, Barstow, San Bernandino. - - Won`t you get hip to this timely tip - - When you make that California trip - - Get your kicks on route sixty-six.'
    } else {
 if (Hoy.getDate()%17 == 4){
-   texto = '🐬🐠🐋 Recordatorio de que hoy es [inserte_Día], por lo que no debería estar a la [1:00] dándole mantenimiento a la página (considérese el reloj de 24 horas). ◈ El especial de hoy: Rock Regresivo ◈ Especial de mañana: Rock Agresivo ◈ El de los días siguientes: TERROR y AGONÍA ◈ Viernes: Jamón 🐬🐠🐋'
+   texto = ' A flower?'
    } else {
 if (Hoy.getDate()%17 == 5){
-   texto = '🦢🐇🕊️ Buenos días. Le recordamos que hoy es día [inserte_Día] y, posiblemente, sea horario de clases, por lo que le pedimos amablemente abandonar inmediatamente esta página y se concentre en la clase. Le recordamos también que evite comer een subway (El Sub del día no es muy bueno) 🦢🐇🕊️'
+   texto = 'Cold-hearted orb that rules the night - - Removes the colors from our sight - - Red is gray and yellow white - - But we decide which is right - - And which is an illusion '
    } else {
 if (Hoy.getDate()%17 == 6){
-   texto = '🌾🐉🍀 Buenos días. Hoy, por ser martes, hay procesión de animalitos. Pedimos amable y cordialmente guardar la calma. 🐘 🐪 🦕 🦖 🐂 🦙 🐏 🐑 🐎 🐐 🐄 🐅 🐆 🦎 🐓 ‍🐈‍ 🦃 🦚 🦆 🦢 🦩 🦅 🌾🐉🍀'
-   } else {
+	texto = ' Just like old Saxophone Joe - - When he`s got the hogshead up on his toe - - Oh me, oh my - - Love that country pie - - Listen to the fiddler play - - When he`s playin` `til the break of day - - Oh me, oh my - - Love that country pie - - Raspberry, strawberry, lemon and lime - - What do I care? - - Blueberry, apple, cherry, pumpkin and plum - - Call me for dinner, honey, I`ll be there '
+	} else {
 if (Hoy.getDate()%17 == 7){
-   texto = '🪓🔪⚔️ OFERTA DEL DÍA: NAVAJAS 2x1 en la compra de UN GANSITO 🪓🔪⚔️'
+   texto = ' Siiiiiii puer cum puellula moraretur in cellula - - fE e EEE eeEEE eEelix coniunctio - -  Amore succrescente, pariter e medio propulso procul taedio, fit ludus ineffabilis membris, lacertis, labiis. '
    } else {
 if (Hoy.getDate()%17 == 8){
-   texto = '🌼🌻🥀 ATTENTION ALL PLANETS OF THE SOLAR FEDERATION \\ ATTENTION ALL PLANETS OF THE SOLAR FEDERATION 🌼🌻🥀'
-   } else {
+	texto = ' Serpentina De carnaval Cuando los días buenos pasen - -  ¿En qué esquina Me encontrarás? ¿Cómo sabrás qué es lo que quiero? - -  Si suave es tu corazón Ya no volverás aquí Yo sé que me quieres Y está bien - -  Yo seré siempre El mendigo en el andén De un pueblo fantasma Donde nunca pasa el tren '
+	} else {
 if (Hoy.getDate()%17 == 9){
-   texto = '🐕🐩🦮 Jajjajja perro 🐕🐩🦮'
+	texto = ' Sire, Maestà Riverenti come sempre siam tutti qua - - Sire, siamo noi Il poeta, l`assassino, sua Santità - - Tutti, fedeli amici tuoi Ah, Maestà - - Prego, amici miei Lo sapete non so stare senza di voi - - Presto, sedetevi Al banchetto attendevamo soltanto voi - - Sempre, ogni giorno che verrà Finché amore e pace regnerà '
    } else {
 if (Hoy.getDate()%17 == 10){
    texto = '🦆🦅🦉 救命，我家外面有六辆黑色的车窗。 Alexa, 慢慢玩 🦆🦅🦉'
    } else {
 if (Hoy.getDate()%17 == 11){
-   texto = ' 🀐 A 🀙 L 🀢 A 🀣 V 🀤 E 🀥 R 🀦 G 🀧 A 🀨 '
+	texto = ' Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah - - Zïss ünt ëtnah, zïss ünt Ëtnah, zïss ünt ëtnah, zïss ünt ëtnah '
    } else {
 if (Hoy.getDate()%17 == 12){
-   texto = '⛲🏰🏯 Ah, qué caray. Otra vez tuvo la mala fortuna de despertar en la mañana. Pero no esté triste, para eso existe esta página. El único lugar al que puede huír y no será será sacado a patadas por comentarios racistas. ⛲🏰🏯'
+	texto = ' So, so you think you can tell Heaven from hell? Blue skies from pain? Can you tell a green field From a cold steel rail? A smile from a veil? Do you think you can tell? '
    } else {
 if (Hoy.getDate()%17 == 13){
-   texto = '🏞️🌅🌄 Ya hace un día desde que no regresaba a este lugar. El Administrador está muy feliz de verlo de nuevo 🏞️🌅🌄'
+	texto = ' Down at the end, round by the corner -- Close to the edge, just by a river -- SEASONS WIL PASS YOU BYYYYYY --  I GET UUUP, I GET DOoOown -- Now that it`s all over and done, Now that you find, now that you`re whole -- My eyes convinced, eclipsed with the younger moon attained with love --  It changed as almost strained amidst clear manna from above -- I crucified my hate and held the word within my hand -- There`s you, the time, the logic, or the reasons we don`t understand -- '
    } else {
 if (Hoy.getDate()%17 == 14){
-   texto = '🎑🌠🎇 Si alguna vez se abre una carpeta de ivestigación en ccontra del Administrador, este no se hace responsable por ningún suceso que haya tenido lugar el día 13 de octubre de 2022 a medianoche. 🎑🌠🎇'
+	texto = ' Has the dawn ever seen your eyes? - Have the days made you so unwise? Realize, you are --  Had you talked to the winds of time - Then you`d know how the waters rhyme - Taste of wine --  How can you know where you`ve beeeeeen? - In time, you`ll see the sign - And realize your sin - ªªªªªªªªaaaaaAAAAAAAA '
    } else {
 if (Hoy.getDate()%17 == 15){
-   texto = '🌇🏙️🌁 Toma awa UwU. Uwuwuwuwuuwuu. Pidan tacos OwO. N0 coman waffles UnU. 🌇🏙️🌁'
+	texto = ' Play me Old King Cole - That I may join with you - All your hearts now seem so far from me - It hardly seems to matter now - - - And the nurse will tell you lies - Of a Kingdom beyond the skies - But I`m lost within this half-world - It hardly seems to matter now - - - Play me my song - Here it comes again - Play me my song - Here it comes agaaaaaaaaaaaaain '
    } else {
 if (Hoy.getDate()%17 == 16){
-   texto = 'gvrffe'
+   texto = ' High vibration go oooooooooooooooooooooooooooooooon - To the sun, oh let my heart dreaming - Past a mortal as me - Where can I be?'
   }}}}} }}}}} }}}}} }}
 //Hoy.getDate()%n <-> } de cierre n veces // (Hoy.getDate()%n == n-1)
 document.write(texto)
@@ -316,3 +316,34 @@ function escInf(sectionId, dataArray){
 
 	loadWorks(sectionId, dataArray);
 }
+
+
+
+// ['Yes', 'YES', ['Yes_Yes_1.png', 'Yes_The-yes-album_2.png', 'png', ''], ['#3a1117', '#ff9416'], 'iframe_a', 'https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9'],
+// ['Yes', 'Time and a word', ['Yes_Time-and-a-word_1.png', 'png', 'png', ''], ['#09011e', '#f0c900'], 'iframe_a', 'https://www.youtube.com/embed/bcc_pW8f4Yo?list=PL16FF0C44194CFCE1'],
+// ['Yes', 'The Yes Album', ['Yes_The-yes-album_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=3N6AeSM0AKU&list=PLo2aaBamFnLR0tS9GQc1mpQj_dGzUqzEM'],
+// ['Yes', 'Fragile', ['Yes_Fragile_1.png', 'png', 'png', ''], ['#090422', '#7caeb8'], '_blank', 'https://www.youtube.com/watch?v=3hE7HZCVVRU?autoplay=1'],
+// ['Yes', 'Close to the Edge', ['Yes_Close-to-the-edge_1.png', 'png', 'png', ''], ['', "linear-gradient(165deg, black, #0b571b, #00ff2e)"], '_blank', 'https://www.youtube.com/watch?v=GNkWac-Nm0A?autoplay=1'],
+// ['Yes', 'Yessongs', ['Yes_Yessongs_1.jpg', 'png', 'png', ''], ['', '#672b36'], '_blank', 'https://www.youtube.com/watch?v=qXN2Tojqhts?autoplay=1'],
+// ['Yes', 'Tales from topographic oceans', ['Yes_Tales_1.png', 'png', 'png', ''], ['#070124', '#a2a2b3'], 'iframe_a', 'https://www.youtube.com/embed/2-tnnbwIYys?list=PLoRgLeHX0tkHeRLKRW4As37dtxc3iGE8U'],
+// ['Yes', 'Relayer', ['Yes_Relayer_1.jpg', 'png', 'png', ''], ['#181b22', '#ce7912'], '_blank', 'https://www.youtube.com/watch?v=quPoq2699Xo&t=0s'],
+// ['Yes', 'Going for the one', ['Yes_Going-for-the-one_1.jpg', 'png', 'png', ''], ['#3b569b', ''], '_blank', 'https://www.youtube.com/watch?v=8_8MNVzQv6E?autoplay=1'],
+// ['Yes', 'Drama', ['Yes_Drama_1.png', 'png', 'png', ''], ['#040e14', '#4b69a7'], '_blank', 'https://www.youtube.com/watch?v=NLWDsXTdeiM&list=PLvsYXqtYjMYfAhOzB15ncmHf-SymYIWvt'],
+// ['ELP', 'Emerson, Lake and Palmer', ['ELP_ELP_1.png', 'png', 'png', ''], ['', '#c9195f'], 'iframe_a', 'https://www.youtube.com/embed/JwmSS_64IN4?list=OLAK5uy_nWYVLlCgxodhqh5PuVKeNwfnxE7rW5xsY'],
+// ['ELP', 'Tarkus', ['ELP_Tarkus_1.png', 'png', 'png', ''], ['#0f2b4a', 'linear-gradient(189deg, #1e5787, #FFFFFF, rgb(232, 186, 0), rgb(232, 186, 0), rgb(240, 130, 13), rgb(240, 130, 13), rgb(240, 89, 0), rgb(240, 89, 0), rgb(87, 44, 3), rgb(87, 44, 3), rgb(59, 105, 50), rgb(59, 105, 50), rgb(58, 7, 106), rgb(58, 7, 106), rgb(73, 33, 7), rgb(73, 33, 7), rgb(45, 56, 143), #2d388f, #2d388f)'], 'iframe_a', 'https://www.youtube.com/embed/QQ1Zo6faTQY?list=PL_7uDR7uwx35vz46V87pkru_Sk2Antz4t'],
+// ['ELP', 'Trilogy', ['ELP_Trilogy_1.png', 'png', 'png', ''], ['#320b1d', '#ac4f7a'], 'iframe_a', 'https://www.youtube.com/embed/3O35mcfY7nE?list=OLAK5uy_nbuBqLng1HncYf0TOEPHlJni91H64hynA'],  
+// ['ELP', 'Pictures at an exhibition', ['ELP_Pictures_1.png', 'png', 'png', ''], ['', '#a8182c'], 'iframe_a', 'https://www.youtube.com/embed/4XxnETYIRyc?list=PLoRgLeHX0tkGwomaXfy8p0MAR4eMxoItX'],
+// ['ELP', 'Brain salad surgery', ['ELP_Brain-salad-surgery_1.png', 'png', 'png', ''], ['#0d0d0f', '#c40000'], 'iframe_a', 'https://www.youtube.com/embed/EiefkbOwjz4?list=PLoRgLeHX0tkFmOtQA_QiLMm2qqQbQXWEu'],
+// ['ELP', 'Welcome back my friends to the show that never ends', ['ELP_Welcome-back_1.png', 'png', 'png', ''], ['#0e0e41', '#837dae'], 'iframe_a', 'https://www.youtube.com/embed/MlUA9S8hJpo?list=PLoRgLeHX0tkFtNKwWhMx_26u1G8S_wvnX'],
+// ['ELP', 'Works Vol. 1', ['ELP_Works-Vol-1_1.jpg', 'png', 'png', ''], ['#273a4f', '#08090a'], 'iframe_a', 'https://www.youtube.com/embed/JbU7R8nzPSM?list=PL_tKhcwp1CMJdxpMWsq5P9CUbTozZdpdE'],
+// ['ELP', 'Works Vol. 2', ['ELP_Works-Vol-2_1.png', 'png', 'png', ''], ['#000000', '#cccccc'], '_blank', 'https://www.youtube.com/watch?v=8aa7kw65nXc&list=OLAK5uy_nZtFLUbmnEE8LLS058-z3Uf3sGOTFGy6o'],
+// ['ELP', 'In Concert', ['ELP_In-Concert_1.png', 'png', 'png', ''], ['#020a25', "radial-gradient(transparent, transparent, #050421), linear-gradient(180deg, #2a3c71, #2a3c71, #b7c5c8, #2a3c71, #2a3c71)"], 'iframe_a', 'https://www.youtube.com/embed/AyMdFGizWN4?list=PLs6qUl61yIU9g3FSsxw1pfmDU5HebswSU'],
+// ['ELP', 'Black Moon', ['ELP_Black-Moon_1.png', 'png', 'png', ''], ['#10355a', ''], 'iframe_a', 'https://www.youtube.com/embed/BoTKJL_zeK4?list=PLeRTwzsK7qf-o4HeJ9EnJd4lKNHZWyA2K'],
+// ['Emerson Lake & Powell', 'Emerson Lake & Powell', ['Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_1.png', 'png', 'png', ''], ['#080808', '#e91e15'], '_blank', 'https://www.youtube.com/watch?v=HuxJlaEkt20&list=OLAK5uy_noA1rSrOWXngRhxPYA3gO11qMtrki0lqQ'],
+// ['Genesis', 'Trespass', ['Genesis_Trespass_1.png', 'png', 'png', ''], ['#3c78a4', '#000000'], 'iframe_a', 'https://www.youtube.com/embed/E7Z_xXh7gm8?list=PLWnwFAnZO1AHvF50JS7mgXh3ZGsF3phcz'],
+// ['Genesis', 'Nursery Cryme', ['Genesis_Nursery-cryme_1.png', 'png', 'png', ''], ['', '#ed5a14'], 'iframe_a', 'https://www.youtube.com/embed/ptqOXXhCpgs?list=OLAK5uy_kcdTV9DHP8chjWvVCDONrizSnps-SWcyw'],
+// ['Genesis', 'Foxtrot', ['Genesis_Foxtrot_1.jpg', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/2agWXrNJGjg?list=PLWnwFAnZO1AFU-KtZVhHY6lTnZRk_MYBS'],
+// ['Genesis', 'Selling England by the pound', ['Genesis_Selling-England_1.png', 'png', 'png', ''], ['', '#afb85a'], 'iframe_a', 'https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD'],
+// ['Genesis', 'The lamb lies down on Broadway', ['Genesis_The-lamb_1.png', 'png', 'png', ''], ['#000000', ''], 'iframe_a', 'https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m'],
+// ['Genesis', 'A trick of the tail', ['Genesis_A-trick-of-the-tail_1.jpg', 'png', 'png', ''], ['', '#794200'], 'iframe_a', 'https://www.youtube.com/embed/sjRQgTbbfwA?list=PLWnwFAnZO1AFYcHK8qq0UgQ0zBMvnVZgC'],
+// ['Genesis', 'And Then There Were Three', ['Genesis_And-Then-There-Were-Three_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/watch?v=EjLEOBHANkM&list=OLAK5uy_kTYG01aDFwJvrud4JAl_mwz5lq2cvU0i4'],

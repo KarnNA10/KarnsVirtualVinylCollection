@@ -9,8 +9,9 @@
         </head> 
 
 <script>
-  const list=[
+  const AC=[
 // Precargado
+// Plantilla: ['autor','nombre',['RootDir','png', 'png',''],['',''],'_blank','link'],
 // ['Yes', 'YES', ['Yes_Yes_1.png', 'Yes_The-yes-album_2.png', 'png', ''], ['#3a1117', '#ff9416'], 'iframe_a', 'https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9'],
 // ['Yes', 'Time and a word', ['Yes_Time-and-a-word_1.png', 'png', 'png', ''], ['#09011e', '#f0c900'], 'iframe_a', 'https://www.youtube.com/embed/bcc_pW8f4Yo?list=PL16FF0C44194CFCE1'],
 // ['Yes', 'The Yes Album', ['Yes_The-yes-album_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=3N6AeSM0AKU&list=PLo2aaBamFnLR0tS9GQc1mpQj_dGzUqzEM'],
@@ -35,11 +36,12 @@
 // ['Genesis', 'Trespass', ['Genesis_Trespass_1.png', 'png', 'png', ''], ['#3c78a4', '#000000'], 'iframe_a', 'https://www.youtube.com/embed/E7Z_xXh7gm8?list=PLWnwFAnZO1AHvF50JS7mgXh3ZGsF3phcz'],
 // ['Genesis', 'Nursery Cryme', ['Genesis_Nursery-cryme_1.png', 'png', 'png', ''], ['', '#ed5a14'], 'iframe_a', 'https://www.youtube.com/embed/ptqOXXhCpgs?list=OLAK5uy_kcdTV9DHP8chjWvVCDONrizSnps-SWcyw'],
 // ['Genesis', 'Foxtrot', ['Genesis_Foxtrot_1.jpg', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/2agWXrNJGjg?list=PLWnwFAnZO1AFU-KtZVhHY6lTnZRk_MYBS'],
-['Genesis', 'Selling England by the pound', ['Genesis_Selling-England_1.png', 'png', 'png', ''], ['', '#afb85a'], 'iframe_a', 'https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD'],
-['Genesis', 'The lamb lies down on Broadway', ['Genesis_The-lamb_1.png', 'png', 'png', ''], ['#000000', ''], 'iframe_a', 'https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m'],
-['Genesis', 'A trick of the tail', ['Genesis_A-trick-of-the-tail_1.jpg', 'png', 'png', ''], ['', '#794200'], 'iframe_a', 'https://www.youtube.com/embed/sjRQgTbbfwA?list=PLWnwFAnZO1AFYcHK8qq0UgQ0zBMvnVZgC'],
-['Genesis', 'And Then There Were Three', ['Genesis_And-Then-There-Were-Three_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/watch?v=EjLEOBHANkM&list=OLAK5uy_kTYG01aDFwJvrud4JAl_mwz5lq2cvU0i4'],
+// ['Genesis', 'Selling England by the pound', ['Genesis_Selling-England_1.png', 'png', 'png', ''], ['', '#afb85a'], 'iframe_a', 'https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD'],
+// ['Genesis', 'The lamb lies down on Broadway', ['Genesis_The-lamb_1.png', 'png', 'png', ''], ['#000000', ''], 'iframe_a', 'https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m'],
+// ['Genesis', 'A trick of the tail', ['Genesis_A-trick-of-the-tail_1.jpg', 'png', 'png', ''], ['', '#794200'], 'iframe_a', 'https://www.youtube.com/embed/sjRQgTbbfwA?list=PLWnwFAnZO1AFYcHK8qq0UgQ0zBMvnVZgC'],
+// ['Genesis', 'And Then There Were Three', ['Genesis_And-Then-There-Were-Three_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/watch?v=EjLEOBHANkM&list=OLAK5uy_kTYG01aDFwJvrud4JAl_mwz5lq2cvU0i4'],
 
+['3','To The Power Of Three',['3_To-The-Power-Of-Three_1.png','png','png',''],['#100f0f','#d33833'],'_blank','https://www.youtube.com/watch?v=2hXAxqWSigY&list=OLAK5uy_mqDJJyKWDl6I21TEl85OhwcFxBqbbAyWc'],
 ['The Alan Parsons project', 'Eye in the sky', ['Alan-PP_Eye-in-the-sky_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=UywKZcH_Wk0&list=OLAK5uy_naJd5iL3yhRc2mXcbsH8TfkoZ81P0tmuQ'],
 ['The Alan Parsons project', 'I robot', ['Alan-PP_I-robot_1.jpg', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=HoHuUc7fa4I?autoplay=1'],
 ['Anderson/Stolt', 'Invention of Knowledge', ['Anderson-Stolt_Invention-of-knowledge_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=9eA3ETi7cyg'],
@@ -60,8 +62,9 @@
 ['Charles Mingus', 'Mingus Ah Um', ['Charles-Mingus_Mingus-Ah-Um_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=E7hoX7golZI&list=PLs9zwqXsceUiF7cDaywDwyUaH0oEhTwhO&index=1'],
 ['Chet Baker', 'Let`s Get Lost', ['Chet-Baker_Lets-get-lost_1.png', 'png', 'png', ''], ['#0c575f', '#e75a75'], 'iframe_a', 'https://www.youtube.com/embed/SKMKglJ8CZw'],
 ['Chris Botti', 'In Boston', ['Chris-Botti_In-Boston_1.png', 'disco-respaldo_2.png', '', ''], ['', '#2f903f'], '_blank', 'https://www.youtube.com/watch?v=xZ7niucpiz4?autoplay=1'],
-['Chris Squire', 'Fish out of water', ['Chris-Squire_Fish-out-of-water_1.png', 'png', 'png', ''], ['#01131e', '#7f7f7f'], 'iframe_a', 'https://www.youtube.com/embed/mhGXySiqT7Q?list=OLAK5uy_lXJGLyAKLJKuc4-KSIMYxAruaWtvgXNrE'],
+['Chris Squire', 'Fish out of water', ['Chris-Squire_Fish-out-of-water_1.png', 'png', 'png', ''], ['#01131e', '#7f7f7f'], 'iframe_a', 'https://www.youtube.com/embed/mhGXySiqT7Q?list=OLAK5uy_lXJGLyAKLJKuc4-KSIMYxAruaWtvgXNrE']]
 
+const DK =[
 ['Dave Brubeck Quartet', 'Time Out', ['Dave-Brubeck-Quartet_Time-Out_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=FqPC-BkylxA&list=PLDCdjwiC90TH1RIKCTjfre4mkJGjRKCk7&index=1     '],
 ['ELP', 'Love Beach', ['ELP_Love-Beach_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/7G3bWPUW6Jw?list=OLAK5uy_kumBk-OR6rpI8Zh9kO77yqYhDu4UnI8YE'],
 ['Focus', 'Moving Waves', ['Focus_Moving-waves_1.png', 'png', 'png', ''], ['radial-gradient(transparent, #ad5ca5, #4a2968, transparent,#6d2d89, #5f4ec1, transparent,#4f40a5, #2b2262,transparent) no-repeat fixed content-box , linear-gradient(0deg, #0e0749, #e09bd2, #0e0749)', "linear-gradient(180deg, #e236ff17, #0000008a), radial-gradient(#771887, #8f66cd, #6d2192, #815ed2, #763592, #7b6bd7, #6e3178, #2b2262)"], 'iframe_a', 'https://www.youtube.com/embed/cCBMPdqDAS0'],
@@ -75,6 +78,7 @@
 ['the Jimi Hendrix Experience', 'Are You Experienced', ['Jimi-Hendrix-XP_Are-you-experienced_1.png', 'png', 'png', ''], ['#27293C', '#EBBB1E'], 'iframe_a', 'https://www.youtube.com/embed/Ll7w7Q1uIAk?list=PLglUu7rOaMDvV15pylVp6iC2Wkkf7q2sy'],
 ['Jimmy Smith', 'The Sermon!', ['Jimmy-Smith_The-Sermon_1.png', 'png', 'png', ''], ['#000000', '#246f9d'], '_blank', 'https://www.youtube.com/watch?v=7IKC2BW4pxc'],
 ['John Coltrane', 'My favorite things', ['John-Coltrane_My-favorite-things_1.png', 'png', 'png', ''], ['#0b6481', '#ed7a14'], '_blank', 'https://www.youtube.com/watch?v=UlFNy9iWrpE?autoplay=1'],
+['Kansas','Point of Know Return',['Kansas_Point-of-Know-Return_1.png','png', 'png',''],['#141435','linear-gradient(45deg, #d0373a, #eeb792)'],'_blank','https://www.youtube.com/watch?v=iFWtsT5zRKo&list=OLAK5uy_nTMaScYjQO1978D2UONzw1lN8DR2qQCFY&index=1'],
 ['Keith Emerson', 'Changing States', ['Keith-Emerson_Changing-states_1.png', 'disco-respaldo_2.png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=dQpFNuavw7A&list=OLAK5uy_kb8LjeVgRoP8eZWUkaSBuYiNly_I8Cvwc'],
 ['Keith Emerson', 'Emerson Plays Emerson', ['Keith-Emerson_Emerson-plays-Emerson_1.png', 'disco-respaldo_2.png', 'png', ''], ['#111a2b', "radial-gradient(transparent, transparent, #111a2b), linear-gradient(180deg, #ed1414, #ed1414, #ed5414, #ed1414, #ed1414)"], '_blank', 'https://www.youtube.com/watch?v=LN7hPkcmUKo&list=OLAK5uy_nwZIyGl98a_lrrrUYV8h8KMYNol6lpL4E'],       
 ['Keith Emerson ', 'Honky', ['Keith-Emerson_Honky_1.png', 'png', 'png', ''], ['#091b2c', '#3d9979'], '_blank', 'https://www.youtube.com/watch?v=RR8TNqQu38o&list=PLoIDt_C5y1LugTv3rHEojgkGShlOrInVB'],
@@ -84,14 +88,17 @@
 ['Keith Emerson Band', 'Featuring Marc Bonilla', ['Keith-Emerson-Band_Featuring-Marc-Bonilla_1.png', 'png', 'png', ''], ['#1e010a', "linear-gradient(174deg,#1c0700, #7b331c, #7b331c, #991f33, #682946, #441028, #747474, #cccccc, #4c4c4c)"], '_blank', 'https://www.youtube.com/watch?v=oaIO1btSv7g&list=OLAK5uy_mzRo13baeAP0cxff7qZcmCre5sMFTh3OI'],
 ['Keith Emerson Band', 'Three Fates Project', ['Keith-Emerson-Band_1.png', 'png', 'png', ''], ['#245671', "linear-gradient(29deg, #96aec4, transparent, #002d63, #214753, #08075a, black)"], '_blank', 'https://www.youtube.com/watch?v=Rrsi1KUHhCM&list=PLoIDt_C5y1LuaNbvbnr5eMdR-G-zaESmu'],
 ['Keith Emerson', 'lenn Hughes', ['KE-GH-MB_Boys-Club_1.png', 'disco-respaldo_2.png', 'png', ''], ['#121212', '#ed142a'], '_blank', 'https://www.youtube.com/watch?v=hfOCeNYS-eM&list=OLAK5uy_n4lCRBhZYeZB7M4t32_CnBJF2EgQsAiHo&index=1'],
-['Keith Emerson Trio', 'Keith Emerson Trio', ['Keith-Emerson-Trio_Keith-Emerson-Trio_1.png', 'png', 'png', ''], ['#0c1035', '#ac8753'], 'iframe_a', 'https://www.youtube.com/embed/jQonScZ048U?list=PLvVInkWctBZv_lYEQEwFcrk1bgM2TRNRm'],
+['Keith Emerson Trio', 'Keith Emerson Trio', ['Keith-Emerson-Trio_Keith-Emerson-Trio_1.png', 'png', '', ''], ['#0c1035', '#ac8753'], 'iframe_a', 'https://www.youtube.com/embed/jQonScZ048U?list=PLvVInkWctBZv_lYEQEwFcrk1bgM2TRNRm'],
 ['King Crimson', 'In The Court Of The Crimson King', ['King-Crimson_In-the-court-of-the-crimson-king_1.png', 'png', 'png', ''], ['#203857', '#c93b56'], '_blank', 'https://www.youtube.com/watch?v=7OvW8Z7kiws&list=PLXhfRoiJBIiuXOUv_7EJ1i7UKj0aGfy0U'],
-['King crimson', 'Red', ['King-Crimson_Red_1.jpg', 'png', '', ''], ['#9e0c0c', '#0f0f0f'], '_blank', 'https://www.youtube.com/watch?v=X_pDwv3tpug&list=PLjPIe5KlzbfVieL1zPh3LjDNJQBV98WTF'],
+['King crimson', 'Red', ['King-Crimson_Red_1.jpg', 'png', '', ''], ['#9e0c0c', '#0f0f0f'], '_blank', 'https://www.youtube.com/watch?v=X_pDwv3tpug&list=PLjPIe5KlzbfVieL1zPh3LjDNJQBV98WTF']]
 
+const LQ=[
 ['Locanda Delle Fate', 'Forse Le Lucciole Non Si Amano Piu', ['Locanda-Delle-Fate_Forse-le-lucciole-non-si-amano-piu_1.png', 'png', 'png', ''], ['#031125', '#7096d7'], '_blank', 'https://www.youtube.com/watch?v=AduzmFEANJU&list=OLAK5uy_mRquLg9xeV5jbMjN90H86ADdLipHxeFCY&index=1&pp=8AUB'],
 ['Luis Alberto Spinetta', "A 18' del Sol", ["Luis-Alberto-Spinetta_A-18'-del-Sol_1.png", 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=10_6aInQ3jI&list=PLfM0RQhM6C7N_QxCx4vlwndwcI1rAod3U'],
 ['Magma', 'Mëkanïk Dëstruktïẁ Kömmandöh', ['Magma_Mekanik-Destruktiw-Kommandoh_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=9OjWBjvpr4s&list=OLAK5uy_nRHkNZbNmbix880hI28SWmMM0DsaNCtu8'],
 ['Manhattan Transfer', 'The Manhattan Transfer', ['Manhattan-Transfer_Manhattan-Transfer_1.png', 'png', 'png', ''], ['#001c28', '#166495'], '_blank', 'https://www.youtube.com/playlist?list=PLcvZ5KmI-bv5wBuLZk_A8_nlbGLkLAigs'],
+['Marc Bonilla','American Matador',['Marc-Bonilla_American-Matador_1.png','', 'png',''],['#20272f','#cc3530'],'_blank','https://www.youtube.com/watch?v=6-siHdMGeZw&list=OLAK5uy_l7ZV5OdN_K8jC1LLJ68bSUfbMCr1Zy5kU'],
+['Marc Bonilla','EE Ticket',['Marc-Bonilla_EE-Ticket_1.png','png', 'png',''],['linear-gradient(122deg,#110429, transparent) no-repeat fixed content-box ,linear-gradient(173deg, #574083,#574083, #e9bc43) no-repeat fixed content-box','crimson'],'_blank','https://www.youtube.com/watch?v=HxlHbmfMP3k&list=OLAK5uy_k2-F2fbJRAOs4jp4EfKjVQDNR3yVN_onI'],
 ['Miles Davis', 'Kind of blue', ['Miles-Davis_Kind-of-blue_1.png', 'png', 'png', ''], ['#04153f', '#2f67b2'], 'iframe_a', 'https://www.youtube.com/embed/M9tpfzTBeq0?start=29'],
 ['The Moody Blues', 'Days Of Future Passed', ['Moody-Blues_Days-of-future-passed_1.png', 'png', 'png', ''], ['', 'radial-gradient(#c16a6a, #da6161, #ff0000, #b15c0d, #f3e10c, #23d251, #086414, #789fe1, #4f54aa, #1e14ac, #4a12c9, #000000)'], '_blank', 'https://www.youtube.com/watch?v=uZCzH8q1hcY&t=0s'],
 ['The Moody Blues', 'In Search Of The Lost Chord', ['Moody-Blues_In-Search-Of-The-Lost-Chord_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=gEj3NOW_ctw&list=OLAK5uy_l7_ahSGv1dH0uO2_o_glRWZOOzgBr9Ju4&index=1'],
@@ -115,8 +122,9 @@
 ['Pink Floyd', 'Wish you were here', ['Pink-Floyd_Wish-you-were-here_1.png', 'png', '', ''], ['#748ea4', '#000000'], 'iframe_a', 'https://www.youtube.com/embed/TMy_mYkwl4M?autoplay=1'],
 ['Prince', '1999', ['Prince_1999_1.png', 'png', '', ''], ['#5c2278', '#300383'], '_blank', 'https://www.youtube.com/watch?v=weUhBGA8mxo?autoplay=1'],
 ['Prince', 'Purple Rain', ['Prince_Purple-Rain_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/gjpeL6aGJAI?autoplay=1'],
-['Prince', 'Sign O` The Times', ['Prince_Sign-O-The-Times_1.png', 'png', '', ''], ['', '#c07b0a'], 'iframe_a', 'https://www.youtube.com/embed/EVolCHbpk34?autoplay=1'],
+['Prince', 'Sign O` The Times', ['Prince_Sign-O-The-Times_1.png', 'png', '', ''], ['', '#c07b0a'], 'iframe_a', 'https://www.youtube.com/embed/EVolCHbpk34?autoplay=1']]
 
+const RZ=[
 ['Refugee', 'Refugee', ['Refugee-Refugee_1.png', 'png', 'png', ''], ['', ''], 'iframe_a', 'https://www.youtube.com/embed/WMcLoouGu-o?list=PLGfb2R92OHul6B1GBr1niUp0JyGGEqLzT'],
 ['Renaissance', 'Ashes are burning', ['Renaissance_Ashes-are-burning_1.png', 'png', 'png', ''], ['#3a0904', '#ca7b0d'], '_blank', 'https://www.youtube.com/playlist?list=OLAK5uy_kLlzvwRGj185pGq9yYhveAzan1m0qWHbQ'],
 ['Return to Forever', 'Romantic Warrior', ['Return-to-forever_Romantic-warrior_1.png', 'png', 'png', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=JqDX_njvEMQ'],
@@ -148,7 +156,10 @@
 ['Wishbone Ash', 'Argus', ['Wishbone-Ash_Argus_1.png', 'png', '', ''], ['', ''], '_blank', 'https://www.youtube.com/watch?v=xagZWGEtI2A&list=PL_ZwpC8SOCfifTPnlvbLbBbf0Kh0_eenJ']]
 
 function loadAllAlv(){
-  escInf('A', list)
+  escInf('AC', AC)
+  escInf('DK', DK)
+  escInf('LQ', LQ)
+  escInf('RZ', RZ)
 }
 
 </script>
@@ -173,6 +184,9 @@ function loadAllAlv(){
     </div> 
     
     <section class="sec" id="B">
+      <figure class="secName">
+        <a>Yes</a>
+      </figure>
       <article>
         <a target="iframe_a" href="https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9"
         onclick="correrAnimacion('Yes_Yes_1.png', 'Yes_The-yes-album_2.png', 'png',''), escribir('Yes', 'YES'), color(['#3a1117', '#ff9416'])">
@@ -213,7 +227,11 @@ function loadAllAlv(){
         <a target="_blank" href="https://www.youtube.com/watch?v=NLWDsXTdeiM&list=PLvsYXqtYjMYfAhOzB15ncmHf-SymYIWvt"
         onclick="correrAnimacion('Yes_Drama_1.png','png','png',''), escribir('Yes', 'Drama'), color(['#040e14', '#4b69a7'])">
         <img src="img/p/Yes_Drama_1.png" class="portada_alt"/></a></article>
-            <article>
+        
+        <figure class="secName">
+          <a>Emerson, Lake & Palmer</a>
+        </figure>
+          <article>
         <a target="iframe_a" href="https://www.youtube.com/embed/JwmSS_64IN4?list=OLAK5uy_nWYVLlCgxodhqh5PuVKeNwfnxE7rW5xsY"
         onclick="correrAnimacion('ELP_ELP_1.png', 'png','png',''), escribir('ELP', 'Emerson, Lake & Palmer'), color(['', '#c9195f'])">
         <img src="img/p/ELP_ELP_1.png" class="portada"/></a></article>
@@ -257,6 +275,10 @@ function loadAllAlv(){
         <a target="_blank" href="https://www.youtube.com/watch?v=HuxJlaEkt20&list=OLAK5uy_noA1rSrOWXngRhxPYA3gO11qMtrki0lqQ"
         onclick="correrAnimacion('Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_1.png','png','png',''), escribir('Emerson Lake & Powell', 'Emerson Lake & Powell'), color(['#080808', '#e91e15'])">
         <img src="img/p/Emerson-Lake-&-Powell_Emerson-Lake-&-Powell_1.png" class="portada_alt"/></a></article>
+        
+        <figure class="secName">
+          <a>Genesis</a>
+        </figure>
             <article>
         <a target="iframe_a" href="https://www.youtube.com/embed/E7Z_xXh7gm8?list=PLWnwFAnZO1AHvF50JS7mgXh3ZGsF3phcz"
         onclick="correrAnimacion('Genesis_Trespass_1.png', 'png','png',''), escribir('Genesis', 'Trespass'), color(['#3c78a4', '#000000'])">
@@ -269,11 +291,47 @@ function loadAllAlv(){
         <a target="iframe_a" href="https://www.youtube.com/embed/2agWXrNJGjg?list=PLWnwFAnZO1AFU-KtZVhHY6lTnZRk_MYBS"
         onclick="correrAnimacion('Genesis_Foxtrot_1.jpg', 'png','png',''), escribir('Genesis', 'Foxtrot'), color(['', ''])">
         <img src="img/p/Genesis_Foxtrot_1.jpg" class="portada"/></a></article>
+            <article>
+        <a target="iframe_a" href="https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD"
+        onclick="correrAnimacion('Genesis_Selling-England_1.png', 'png','png',''), escribir('Genesis', 'Selling England by the pound'), color(['', '#afb85a'])">
+        <img src="img/p/Genesis_Selling-England_1.png" class="portada"/></a></article>
+            <article>
+        <a target="iframe_a" href="https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m"
+        onclick="correrAnimacion('Genesis_The-lamb_1.png', 'png','png',''), escribir('Genesis', 'The lamb lies down on Broadway'), color(['#000000'])">
+        <img src="img/p/Genesis_The-lamb_1.png" class="portada"/></a></article>
+            <article>
+        <a target="iframe_a" href="https://www.youtube.com/embed/sjRQgTbbfwA?list=PLWnwFAnZO1AFYcHK8qq0UgQ0zBMvnVZgC"
+        onclick="correrAnimacion('Genesis_A-trick-of-the-tail_1.jpg', 'png','png',''), escribir('Genesis', 'A trick of the tail'), color(['', '#794200'])">
+        <img src="img/p/Genesis_A-trick-of-the-tail_1.jpg" class="portada"/></a></article>
+            <article>
+        <a target="iframe_a" href="https://www.youtube.com/watch?v=EjLEOBHANkM&list=OLAK5uy_kTYG01aDFwJvrud4JAl_mwz5lq2cvU0i4"
+        onclick="correrAnimacion('Genesis_And-Then-There-Were-Three_1.png', 'png','png',''), escribir('Genesis', 'And Then There Were Three'), color(['', ''])">
+        <img src="img/p/Genesis_And-Then-There-Were-Three_1.png" class="portada"/></a></article>
         
     </section>
-    <section class="sec" id="A">
+    <section class="sec" id="AC">
+      <figure class="secName">
+        <a>A - C</a>
+      </figure>
+    </section>
+    <section class="sec" id="DK">
+      <figure class="secName">
+        <a>D - K</a>
+      </figure>
+    </section>
+    <section class="sec" id="LQ">
+      <figure class="secName">
+        <a>L - Q</a>
+      </figure>
+    </section>
+    <section class="sec" id="RZ">
+      <figure class="secName">
+        <a>R - Z</a>
+      </figure>
     </section>
   </span>
+
+
 
   <span class="R">
     <div class="Rcont2">

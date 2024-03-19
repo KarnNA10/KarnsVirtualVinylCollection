@@ -88,9 +88,9 @@ function correrAnimacion(rootDir, ext2, ext3, disc){
 		}
 	}
 
-	// if(disc===""){
-		
-	// }
+	if(disc!=''){
+		disco = "img/turnt/" + disc
+	}
 
 	const imageA = document.createElement('img')
 	imageA.src  = alb_2
@@ -218,7 +218,11 @@ function color(colorArr){
 	bgHtml.style.background = color1;
 	var bgMarq = document.querySelector('.marq');
 	bgMarq.style.background = color2;
-	document.getElementById('cont2').style.color = color1;
+	if(color1.slice(7,11)==='grad'){
+		document.getElementById('cont2').style.color = color2;
+	} else {
+		document.getElementById('cont2').style.color = color1;
+	}	
 }
 
 // function color(c) {
@@ -257,8 +261,8 @@ function color(colorArr){
 	</a>
 </article> */
 
-function act(index){
-	const data = list[index];
+function act(index, lst){
+	const data = lst[index];
 	const [autor,nombre,[rootDir,dir2,dir3,disc],[color1,color2],target,link] = data;
 
 	console.log(`${index} - ${nombre}`)
@@ -282,7 +286,7 @@ function loadWorks(sectionId, dataArray){
 
         article.querySelector('a').onclick = function() {
 			console.log(`esta ${index} se manda a act`)
-            act(index);
+            act(index, dataArray);
         };
     });
 }

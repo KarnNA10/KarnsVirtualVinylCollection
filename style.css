@@ -73,7 +73,7 @@ marquee.marq {
   margin: 10px 0 10px 0;
   }
 #pluma{
-    width: 28vh;
+    width: 13.6vw; /*28vh;*/
     /* height: 100vh; */
     position: fixed;
     /* top: -22.5vh; */
@@ -110,7 +110,17 @@ u{
   position: absolute;
   margin-top: -26vh;
 }
-
+.secName {
+  color: #fff;
+  background: linear-gradient(90deg, black, transparent);
+  width: 100%;
+  margin-left: 12px;
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+}
+.secName a{
+  margin-left: 10px;
+}
 /* Con animaciones ----------------------------------------------- */
 
 .portada{
@@ -233,8 +243,8 @@ u{
 .flip-box {
   margin: 10vh 0 6vh 0;
   background-color: transparent;
-  width: 416.3px;
-  height: 416.3px;
+  width: 27.1vw;
+  height: 27.1vw;
   perspective: 900px;
 }
 

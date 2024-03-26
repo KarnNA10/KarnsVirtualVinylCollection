@@ -60,9 +60,8 @@ document.write(texto)
 }
 
 function correrAnimacion(rootDir, ext2, ext3, disc){
-	// console.log(index)
-	// console.log(list[index])
-	// console.log(list[index][2])
+	// UI78 
+	// Este línea anterior la escribió mi gato
 	const alb_1 = "img/p/" + rootDir
 	var alb_2 = ""
 	var alb_3 = ""
@@ -129,33 +128,33 @@ function correrAnimacion(rootDir, ext2, ext3, disc){
 	imageD.setAttribute("id","sleeve")
 
 	document.getElementById("disco").animate([
-	  { transform: 'rotate(0deg)' },
-	  { transform: 'rotate(359deg)' }
+		{ transform: 'rotate(0deg)' },
+		{ transform: 'rotate(359deg)' }
 	], {
-	  delay: 1000,
-	  duration: 1900,
-	  iterations: Infinity
+		delay: 1000,
+		duration: 1900,
+		iterations: Infinity
 	});
 	document.getElementById("pluma").animate([
-	  { transform: 'rotate(0deg)' },
-	  { transform: 'rotate(15deg)' }
+		{ transform: 'rotate(0deg)' },
+		{ transform: 'rotate(15deg)' }
 	], {
-	  duration: 1000,
-	  iterations: 1
+		duration: 1000,
+		iterations: 1
 	});
 	document.getElementById("pluma").style.transform = 'rotate(15deg)';
 }
 
 function detener(){
-var elementA = document.getElementById("disco_1");
-var elementB = document.getElementById("disco");
-var elementC = document.getElementById("sleeve");
-var element = document.getElementById("html");
+	var elementA = document.getElementById("disco_1");
+	var elementB = document.getElementById("disco");
+	var elementC = document.getElementById("sleeve");
+	var element = document.getElementById("html");
 
-const flipA = document.querySelector('.flip-box');
-const flipB = document.querySelector('.flip-box-inner');
-const flipC = document.querySelector('.flip-box-front');
-const flipD = document.querySelector('.flip-box-back');
+	const flipA = document.querySelector('.flip-box');
+	const flipB = document.querySelector('.flip-box-inner');
+	const flipC = document.querySelector('.flip-box-front');
+	const flipD = document.querySelector('.flip-box-back');
 
 	document.getElementById("disco").animate([
 	  { transform: 'rotate(0deg)' },
@@ -173,9 +172,9 @@ const flipD = document.querySelector('.flip-box-back');
 	});
 	document.getElementById("pluma").style.transform = 'rotate(0deg)';
 
-        elementA.parentNode.removeChild(elementA);
-        elementB.parentNode.removeChild(elementB);
-        elementC.parentNode.removeChild(elementC);
+	elementA.parentNode.removeChild(elementA);
+	elementB.parentNode.removeChild(elementB);
+	elementC.parentNode.removeChild(elementC);
 
 	document.getElementById('cont1').innerHTML='';
 	document.getElementById('cont2').innerHTML='';
@@ -191,7 +190,7 @@ const flipD = document.querySelector('.flip-box-back');
 	flipC.remove();
 	flipD.remove();
 
-	document.querySelectorAll('iframe').removeChild();
+	//document.querySelectorAll('iframe').removeChild();
 }
 
 function escribir(b, a){
@@ -200,19 +199,12 @@ function escribir(b, a){
 	document.getElementById('cont2').innerHTML= a;
 	// document.getElementById('cont1').style.display = 'block'
 	document.getElementById('cont2').style.display = 'block'
+
 }
 
 function color(colorArr){
 	var color1 = colorArr[0];
 	var color2 = colorArr[1];
-	console.log(color2)
-
-	// if(color1===''){
-	// 	color1 = "#011e0d";
-	// }
-	// if(color2===''){
-	// 	color2 = "crimson";
-	// }
 
 	var bgHtml = document.getElementById("html");
 	bgHtml.style.background = color1;
@@ -225,28 +217,6 @@ function color(colorArr){
 	}	
 }
 
-// function color(c) {
-// 	var element = document.getElementById("html");
-// 	element.style.backgroundColor = c;
-//         document.getElementById('cont2').style.color = c;
-// }
-
-// function color(c, m) {
-// 	var element = document.getElementById("html");
-//         var element1 = document.querySelector('.marq');
-// 	element.style.backgroundColor = c;
-//         element1.style.backgroundColor = m;
-//         document.getElementById('cont2').style.color = c;
-// }
-
-
-// function colorGrad(c, m) {
-// 	var element = document.getElementById("html");
-//         var element1 = document.querySelector('.marq');
-// 	element.style.backgroundColor = c;
-//         element1.style.backgroundImage = m;
-//         document.getElementById('cont2').style.color = c;
-// }
 
 /* gggggggggggggggggggggggggg*/
 
@@ -265,10 +235,10 @@ function act(index, lst){
 	const data = lst[index];
 	const [autor,nombre,[rootDir,dir2,dir3,disc],[color1,color2],target,link] = data;
 
-	console.log(`${index} - ${nombre}`)
 	correrAnimacion(rootDir,dir2,dir3,disc)
 	escribir(autor,nombre)
 	color([color1,color2])
+	
 }
 
 function loadWorks(sectionId, dataArray){
@@ -285,7 +255,6 @@ function loadWorks(sectionId, dataArray){
         imgElement.src = `img/p/${rootDir}`;
 
         article.querySelector('a').onclick = function() {
-			console.log(`esta ${index} se manda a act`)
             act(index, dataArray);
         };
     });
@@ -298,8 +267,6 @@ function escInf(sectionId, dataArray){
 		const img = document.createElement('img');
 		const seccion = document.querySelector(`#${sectionId}`)
 
-		// console.log(`esta es la ${i} de ${sectionId}`)
-		// console.log(`vamos en la ${dataArray[i][0]} - ${dataArray[i][1]}`)
 		if (dataArray[i][4]==="_blank"){
 			img.classList.add('portada_alt');
 		} else {
@@ -320,8 +287,6 @@ function escInf(sectionId, dataArray){
 
 	loadWorks(sectionId, dataArray);
 }
-
-
 
 // ['Yes', 'YES', ['Yes_Yes_1.png', 'Yes_The-yes-album_2.png', 'png', ''], ['#3a1117', '#ff9416'], 'iframe_a', 'https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9'],
 // ['Yes', 'Time and a word', ['Yes_Time-and-a-word_1.png', 'png', 'png', ''], ['#09011e', '#f0c900'], 'iframe_a', 'https://www.youtube.com/embed/bcc_pW8f4Yo?list=PL16FF0C44194CFCE1'],

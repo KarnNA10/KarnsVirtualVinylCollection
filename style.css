@@ -124,6 +124,7 @@ u{
 /* Con animaciones ----------------------------------------------- */
 
 .portada{
+  image-rendering: pixelated;
   margin-top: -26px;
   margin-bottom: 0px;
   animation-duration: 1s;
